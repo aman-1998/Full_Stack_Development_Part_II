@@ -1,0 +1,32 @@
+package personal.learning.cars;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import personal.learning.interfaces.Car;
+
+public class Verna implements Car{
+
+	@Autowired
+	Engine engine;
+	
+//	public Verna() {
+//		engine.setTorque("270 Nm");
+//		System.out.println("Hello default constructor of Thar");
+//		System.out.println("--------------------------------------------");
+//	}
+	
+	public Verna(Engine engine) {
+		engine.setTorque("270 Nm");
+		System.out.println("Hello parameterized constructor");
+		System.out.println("--------------------------------------------");
+	}
+
+	@Override
+	public String specification() {
+		return "Rough and tough SUV from Maruti-Suzuki. Torque of the engine is "+engine.getTorque();
+	}
+	
+	public String size() {
+		return "Small in size";
+	}
+}

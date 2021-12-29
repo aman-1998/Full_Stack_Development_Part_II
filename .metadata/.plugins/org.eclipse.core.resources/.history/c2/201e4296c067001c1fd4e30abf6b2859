@@ -1,0 +1,22 @@
+package personal.learning.cars;
+
+import personal.learning.interfaces.Engine;
+
+public class BullockCart implements Car {
+	
+	String type;
+	
+	public BullockCart() {
+		this.type="two oxen";
+	}
+	
+	public BullockCart(String type) {
+		this.type = type;
+	}
+
+	@Override
+	public String type() {
+		return this.type;
+	}
+
+}

@@ -1,0 +1,11 @@
+package personal.learning.cars;
+
+import personal.learning.interfaces.Car;
+
+public class BullockCart implements Car {
+
+	@Override
+	public String specification() {
+		return this.getClass().getSimpleName()+" is a means of transport in early days. It has a "+dieselEngine.type();
+	}
+}

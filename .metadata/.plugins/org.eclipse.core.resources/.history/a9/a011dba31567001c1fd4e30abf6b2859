@@ -1,0 +1,31 @@
+package personal.learning.cars;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import personal.learning.interfaces.Car;
+
+public class Jimny implements Car {
+	
+	@Autowired
+	Engine engine;
+	
+	public Jimny() {
+		engine.setTorque("300 Nm");
+		System.out.println("Hello default constructor of Thar");
+		System.out.println("--------------------------------------------");
+	}
+	
+	public Jimny(Engine engine) {
+		engine.setTorque("300 Nm");
+		System.out.println("Hello parameterized constructor");
+	}
+
+	@Override
+	public String specification() {
+		return "Rough and tough SUV from Mahindra. Torque of the engine is "+engine.getTorque();
+	}
+	
+	public String size() {
+		return "Large in size";
+	}
+}

@@ -1,0 +1,11 @@
+package personal.learning.cars;
+
+import personal.learning.interfaces.Car;
+
+public class Scorpio implements Car {
+
+	@Override
+	public String specification() {
+		return "SUV from Mahinda";
+	}
+}

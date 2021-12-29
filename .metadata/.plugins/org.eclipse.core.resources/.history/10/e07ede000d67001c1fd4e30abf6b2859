@@ -1,0 +1,20 @@
+package personal.learning.cars;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Engine {
+	private String torque;
+	
+	public Engine() {
+		this.torque = "100 Nm";
+	}
+
+	public String getTorque() {
+		return torque;
+	}
+
+	public void setTorque(String torque) {
+		this.torque = torque;
+	}
+}

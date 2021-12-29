@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+C:\Users\DELL\Desktop\STS_Spring\.metadata\.plugins\org.eclipse.jdt.core
+1635998771.index
+2603759351.index
+1865797976.index
+3985891802.index
+1418847259.index
+1793410768.index

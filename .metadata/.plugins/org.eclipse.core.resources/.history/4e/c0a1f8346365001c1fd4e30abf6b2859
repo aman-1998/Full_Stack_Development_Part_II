@@ -1,0 +1,16 @@
+package personal.learning.cars;
+
+import personal.learning.interfaces.Car;
+
+public class Altroz implements Car {
+
+	@Override
+	public String specification() {
+		return "Hatchback from Tata Motors";
+	}
+	
+	public String size() {
+		return "Small in size";
+	}
+	
+}
