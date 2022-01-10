@@ -34,7 +34,7 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 16. https://stackoverflow.com/questions/12745751/hibernate-sequencegenerator-and-allocationsize <br>
 17. https://newbedev.com/hibernate-sequencegenerator-and-allocationsize <br>
 18. https://discourse.hibernate.org/t/sequencegenerator-allocationsize-versus-increment-by/5070 <br>
-19. https://discourse.hibernate.org
+19. https://discourse.hibernate.org <br>
 20. https://marketplace.eclipse.org <br>
 21. https://www.eclipse.org <br>
 22. https://shields.io <br>
