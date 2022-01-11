@@ -40,3 +40,4 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 22. https://shields.io <br>
 23. https://spring.io/tools <br>
 24. https://codepen.io/ankithingarajiya/pen/jjOxMo <br>
+25. https://support.oracle.com/knowledge/Oracle%20Database%20Products/2287819_1.html#CAUSE <br>
