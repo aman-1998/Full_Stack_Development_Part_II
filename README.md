@@ -15,7 +15,7 @@
 <h2><strong>Note:-</strong></h2>
 The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_Injection_N13, Spring_Bean_N21, etc. It is recommended to follow the order while learning. This tutorial will be extremely beneficial for those who want to build their career as a "Java Developer" and learn advanced back-end and front-end.
 
-<h2><strong>Some Important links:-</strong></h2>
+<h2><strong>Some important links:-</strong></h2>
 1. https://docs.spring.io/spring-framework/docs/2.0.8/reference/spring-form.tld.html#spring-form.tld.input <br>
 2. https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/spring-form-tld.html <br>
 3. https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/view.html <br>
@@ -34,7 +34,7 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 16. https://stackoverflow.com/questions/12745751/hibernate-sequencegenerator-and-allocationsize <br>
 17. https://newbedev.com/hibernate-sequencegenerator-and-allocationsize <br>
 18. https://discourse.hibernate.org/t/sequencegenerator-allocationsize-versus-increment-by/5070 <br>
-19. https://discourse.hibernate.org
+19. https://discourse.hibernate.org <br>
 20. https://marketplace.eclipse.org <br>
 21. https://www.eclipse.org <br>
 22. https://shields.io <br>
