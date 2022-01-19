@@ -41,16 +41,16 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 23. https://spring.io/tools <br>
 24. https://codepen.io/ankithingarajiya/pen/jjOxMo <br>
 25. https://support.oracle.com/knowledge/Oracle%20Database%20Products/2287819_1.html#CAUSE <br>
-26. https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/spring-form-tld.html
-27. https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/view.html
-28. https://docs.spring.io/spring-framework/docs/2.0.8/reference/spring-form.tld.html#spring-form.tld.input
-29. https://www.tutorialspoint.com/jsp/jsp_expression_language.htm
-30. https://howtodoinjava.com/spring-mvc/spring-mvc-display-validate-and-submit-form-example/
-31. https://howtodoinjava.com/spring-mvc/spring-mvc-resourcebundleviewresolver-configuration-example/
-32. https://mkyong.com/spring-mvc/spring-mvc-form-check-if-a-field-has-an-error/
-33. https://docs.oracle.com/cd/E17802_01/j2ee/j2ee/1.4/docs/tutorial-update2/doc/JSPIntro7.html
-34. https://www.flaticon.com/search?word=cross&type=icon
-35. https://pixabay.com/vectors/search/error/
-36. https://freepngimg.com/png/15560-red-cross-mark-png-file
-37. https://www.pngwing.com/en/free-png-bhnfk
-38. https://www.youtube.com/watch?v=lYI9w7I4N0I
+26. https://docs.spring.io/spring-framework/docs/4.2.x/spring-framework-reference/html/spring-form-tld.html <br>
+27. https://docs.spring.io/spring-framework/docs/3.2.x/spring-framework-reference/html/view.html <br>
+28. https://docs.spring.io/spring-framework/docs/2.0.8/reference/spring-form.tld.html#spring-form.tld.input <br>
+29. https://www.tutorialspoint.com/jsp/jsp_expression_language.htm <br>
+30. https://howtodoinjava.com/spring-mvc/spring-mvc-display-validate-and-submit-form-example/ <br>
+31. https://howtodoinjava.com/spring-mvc/spring-mvc-resourcebundleviewresolver-configuration-example/ <br>
+32. https://mkyong.com/spring-mvc/spring-mvc-form-check-if-a-field-has-an-error/ <br>
+33. https://docs.oracle.com/cd/E17802_01/j2ee/j2ee/1.4/docs/tutorial-update2/doc/JSPIntro7.html <br>
+34. https://www.flaticon.com/search?word=cross&type=icon <br>
+35. https://pixabay.com/vectors/search/error/ <br>
+36. https://freepngimg.com/png/15560-red-cross-mark-png-file <br>
+37. https://www.pngwing.com/en/free-png-bhnfk <br>
+38. https://www.youtube.com/watch?v=lYI9w7I4N0I <br>
