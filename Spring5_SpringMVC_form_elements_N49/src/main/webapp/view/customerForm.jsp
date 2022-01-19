@@ -20,7 +20,7 @@
       </div>
       <div class="col-75">
         <%-- <input type="text" id="name" name="name" placeholder="Your full name..."> --%>
-        <form:input id="name" path="name"/>
+        <form:input id="name" path="name" placeholder="Your full name..."/>
       </div>
     </div>
     <div class="row">
@@ -79,7 +79,7 @@
       </div>
       <div class="col-75">
        <%-- <textarea id="address" name="address" placeholder="Write your address..." style="height:200px"></textarea> --%>
-       <form:textarea id="address" path="address" cssStyle="height:200px"/>
+       <form:textarea id="address" path="address" cssStyle="height:200px" placeholder="Write your address..."/>
       </div>
     </div>
     <div class="row">
