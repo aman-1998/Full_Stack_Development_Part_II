@@ -54,3 +54,4 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 36. https://freepngimg.com/png/15560-red-cross-mark-png-file <br>
 37. https://www.pngwing.com/en/free-png-bhnfk <br>
 38. https://www.youtube.com/watch?v=lYI9w7I4N0I <br>
+39. https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator/7.0.2.Final <br>
