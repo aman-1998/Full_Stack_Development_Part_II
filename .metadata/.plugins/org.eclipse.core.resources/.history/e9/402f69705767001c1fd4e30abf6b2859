@@ -1,5 +1,0 @@
-package personal.learning.interfaces;
-
-public interface Engine {
-
-}
