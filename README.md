@@ -61,4 +61,8 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 43. https://stackoverflow.com/questions/15498724/tomcat-server-not-starting-with-in-45-seconds <br>
 44. https://stackoverflow.com/questions/39632667/how-do-i-kill-the-process-currently-using-a-port-on-localhost-in-windows <br>
 45. https://www.youtube.com/watch?v=4IjsEgNNl88 <br>
-46. https://mvnrepository.com/artifact/org.hibernate/hibernate-core/5.6.5.Final
+46. https://mvnrepository.com/artifact/org.hibernate/hibernate-core/5.6.5.Final <br>
+47. https://stackoverflow.com/questions/13388045/oracle-data-source-configuration-for-spring <br>
+48. https://howtodoinjava.com/java/regex/java-regex-validate-email-address/ <br>
+49. https://www.w3schools.com/java/java_regex.asp <br>
+50. https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8/21.4.0.0.1
