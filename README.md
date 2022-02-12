@@ -55,3 +55,10 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 37. https://www.pngwing.com/en/free-png-bhnfk <br>
 38. https://www.youtube.com/watch?v=lYI9w7I4N0I <br>
 39. https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator/7.0.2.Final <br>
+40. https://docs.jboss.org/hibernate/validator/3.1/reference/en/html_single/ <br>
+41. https://docs.jboss.org/hibernate/stable/validator/reference/en-US/html_single/#validator-gettingstarted <br>
+42. https://www.baeldung.com/spring-validation-message-interpolation <br>
+43. https://stackoverflow.com/questions/15498724/tomcat-server-not-starting-with-in-45-seconds <br>
+44. https://stackoverflow.com/questions/39632667/how-do-i-kill-the-process-currently-using-a-port-on-localhost-in-windows <br>
+45. https://www.youtube.com/watch?v=4IjsEgNNl88 <br>
+46. https://mvnrepository.com/artifact/org.hibernate/hibernate-core/5.6.5.Final
