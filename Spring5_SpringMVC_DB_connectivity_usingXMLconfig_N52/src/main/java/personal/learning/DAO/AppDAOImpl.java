@@ -160,7 +160,8 @@ public class AppDAOImpl implements AppDAO {
 		
 		return customerList;
 	}
-
+	
+	@Override
 	public boolean isNewCustomer(String email) {
 		Connection conn = null;
 		PreparedStatement ps = null;
@@ -194,7 +195,8 @@ public class AppDAOImpl implements AppDAO {
 		}
 		return true;
 	}
-
+	
+	@Override
 	public void removeCustomer(String email) {
 		Connection conn = null;
 		PreparedStatement ps = null;
@@ -219,6 +221,7 @@ public class AppDAOImpl implements AppDAO {
 		}
 	}
 	
+	@Override
 	public Map<String,String> getCountryListfromDB() {
 		Map<String,String> countryMap = new TreeMap<String,String>();
 		PreparedStatement ps = null;
