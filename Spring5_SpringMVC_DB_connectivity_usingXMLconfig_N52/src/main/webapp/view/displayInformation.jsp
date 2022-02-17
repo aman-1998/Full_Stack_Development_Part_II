@@ -8,8 +8,15 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Information</title>
+<link href="${pageContext.request.contextPath}/additional/css/beautify.css" rel="stylesheet">
 </head>
 <body>
+
+<div class="home-refresh">
+	<a href="${pageContext.request.contextPath}"><button class="home">Home</button></a>
+	<a href="${pageContext.request.contextPath}/form"><button class="refresh">Refresh</button></a><br>
+</div>
+
 <p><span style="color: #f83053">Name:</span> ${customer.name}<br>
 <p><span style="color: #f83053">Email Id:</span> ${customer.email}<br>
 <p><span style="color: #f83053">Date Of Birth:</span> <fmt:formatDate value="${customer.dateOfBirth}" type="date"/><br>

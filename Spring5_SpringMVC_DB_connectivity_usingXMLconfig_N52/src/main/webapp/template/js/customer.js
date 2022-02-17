@@ -1,5 +1,4 @@
 function validateForm() {
-  debugger
   var toast = document.getElementsByClassName("mtoast");
   var error = document.getElementsByClassName("errorMessage");
   

@@ -14,6 +14,7 @@
 	<span class="click-here">Click here to register >>> </span>
 	<a href="${pageContext.request.contextPath}/form"><button class="register-button">Registration Form</button></a>
 </div>
+<br>
 <div class="listOfCustomers">
 	<span class="click-here">Click here to view customers >>> </span>
 	<a href="${pageContext.request.contextPath}/viewCustomers"><button class="view-button">View Customers</button></a>

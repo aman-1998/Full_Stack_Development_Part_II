@@ -1,6 +1,8 @@
 package personal.learning.model;
 
+import java.util.Arrays;
 import java.util.Date;
+import java.util.Objects;
 
 import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotEmpty;
@@ -26,18 +28,23 @@ public class Customer {
 	@NotEmpty(message = "Country must be selected")
 	private String country;
 	
+	private String countryName;
+	
 	@Size(min=1, max=4, message = "At least one language must be selected")
 	private String[] language;
 	
 	private String address;
 	
-	public Customer(String cusEmail, String cusName, String cusGender, String cusDob, String cusCountry,
-			String[] cusLang, String cusAddress) {
+	public Customer(String cusEmail, String cusName, String cusGender, 
+					Date cusDateOfBirth, String cusDob, String cusCountry, 
+					String cusCountryName, String[] cusLang, String cusAddress) {
 		email = cusEmail;
 		name = cusName;
 		gender = cusGender;
+		dateOfBirth = cusDateOfBirth;
 		dob = cusDob;
 		country = cusCountry;
+		countryName = cusCountryName;
 		language = cusLang;
 		address = cusAddress;
 	}
@@ -82,6 +89,12 @@ public class Customer {
 	public void setCountry(String country) {
 		this.country = country;
 	}
+	public String getCountryName() {
+		return countryName;
+	}
+	public void setCountryName(String countryName) {
+		this.countryName = countryName;
+	}
 	public String[] getLanguage() {
 		return language;
 	}
@@ -94,4 +107,5 @@ public class Customer {
 	public void setAddress(String address) {
 		this.address = address;
 	}
+
 }

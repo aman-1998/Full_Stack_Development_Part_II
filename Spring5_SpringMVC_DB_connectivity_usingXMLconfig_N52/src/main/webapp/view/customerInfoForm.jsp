@@ -16,13 +16,13 @@
 <div class="mtoast">
 	<div class="error-container">
 		<div class="warning" style="float: left;">
-			<img draggable="false" src="http://localhost:8080/Spring5_SpringMVC_form_repopulation_validation_N50/additional/images/warning.png" width="28px" height="28px" style="vertical-align:middle;">
+			<img draggable="false" src="${pageContext.request.contextPath}/additional/images/warning.png" width="28px" height="28px" style="vertical-align:middle;">
 		</div>
 		<div class="errorMsgDiv" style="float: left;">
 			<span class="errorMessage" style="vertical-align:middle;"></span>
 		</div>
 		<div class="close" style="float: left;">
-			<img onclick="vanishClientSideError()" draggable="false" src="http://localhost:8080/Spring5_SpringMVC_form_repopulation_validation_N50/additional/images/cross.png" width="22px" height="22px" style="vertical-align:middle;">
+			<img onclick="vanishClientSideError()" draggable="false" src="${pageContext.request.contextPath}/additional/images/cross.png" width="22px" height="22px" style="vertical-align:middle;">
 		</div>
 	</div>
 </div>
@@ -61,7 +61,7 @@
 					<c:if test="${not empty nameHasBindError}">
 						<div class="single-error">
 							<div class="warning" style="float: left;">
-								<img draggable="false" src="http://localhost:8080/Spring5_SpringMVC_form_repopulation_validation_N50/additional/images/warning.png" width="28px" height="28px" style="vertical-align:middle;">
+								<img draggable="false" src="${pageContext.request.contextPath}/additional/images/warning.png" width="28px" height="28px" style="vertical-align:middle;">
 							</div>
 							<div class="errorMsgDiv" style="float: left;">
 								<span class="errorMessage" style="vertical-align:middle;">${nameHasBindError}</span>
@@ -71,7 +71,7 @@
 					<c:if test="${not empty dobHasBindError}">
 						<div class="single-error">
 							<div class="warning" style="float: left;">
-								<img draggable="false" src="http://localhost:8080/Spring5_SpringMVC_form_repopulation_validation_N50/additional/images/warning.png" width="28px" height="28px" style="vertical-align:middle;">
+								<img draggable="false" src="${pageContext.request.contextPath}/additional/images/warning.png" width="28px" height="28px" style="vertical-align:middle;">
 							</div>
 							<div class="errorMsgDiv" style="float: left;">
 								<span class="errorMessage" style="vertical-align:middle;">${dobHasBindError}</span>
@@ -81,7 +81,7 @@
 					<c:if test="${not empty genderHasBindError}">
 						<div class="single-error">
 							<div class="warning" style="float: left;">
-								<img draggable="false" src="http://localhost:8080/Spring5_SpringMVC_form_repopulation_validation_N50/additional/images/warning.png" width="28px" height="28px" style="vertical-align:middle;">
+								<img draggable="false" src="${pageContext.request.contextPath}/additional/images/warning.png" width="28px" height="28px" style="vertical-align:middle;">
 							</div>
 							<div class="errorMsgDiv" style="float: left;">
 								<span class="errorMessage" style="vertical-align:middle;">${genderHasBindError}</span>
@@ -91,7 +91,7 @@
 					<c:if test="${not empty countryHasBindError}">
 						<div class="single-error">
 							<div class="warning" style="float: left;">
-								<img draggable="false" src="http://localhost:8080/Spring5_SpringMVC_form_repopulation_validation_N50/additional/images/warning.png" width="28px" height="28px" style="vertical-align:middle;">
+								<img draggable="false" src="${pageContext.request.contextPath}/additional/images/warning.png" width="28px" height="28px" style="vertical-align:middle;">
 							</div>
 							<div class="errorMsgDiv" style="float: left;">
 								<span class="errorMessage" style="vertical-align:middle;">${countryHasBindError}</span>
@@ -101,7 +101,7 @@
 					<c:if test="${not empty langHasBindError}">
 						<div class="single-error">
 							<div class="warning" style="float: left;">
-								<img draggable="false" src="http://localhost:8080/Spring5_SpringMVC_form_repopulation_validation_N50/additional/images/warning.png" width="28px" height="28px" style="vertical-align:middle;">
+								<img draggable="false" src="${pageContext.request.contextPath}/additional/images/warning.png" width="28px" height="28px" style="vertical-align:middle;">
 							</div>
 							<div class="errorMsgDiv" style="float: left;">
 								<span class="errorMessage" style="vertical-align:middle;">${langHasBindError}</span>
@@ -111,7 +111,7 @@
 					<c:if test="${not empty emailHasBindError}">
 						<div class="single-error">
 							<div class="warning" style="float: left;">
-								<img draggable="false" src="http://localhost:8080/Spring5_SpringMVC_form_repopulation_validation_N50/additional/images/warning.png" width="28px" height="28px" style="vertical-align:middle;">
+								<img draggable="false" src="${pageContext.request.contextPath}/additional/images/warning.png" width="28px" height="28px" style="vertical-align:middle;">
 							</div>
 							<div class="errorMsgDiv" style="float: left;">
 								<span class="errorMessage" style="vertical-align:middle;">${emailHasBindError}</span>
@@ -120,7 +120,7 @@
 					</c:if>
 				</div>
 				<div class="close" style="float: left;">
-					<img onclick="vanishServerSideError()" draggable="false" src="http://localhost:8080/Spring5_SpringMVC_form_repopulation_validation_N50/additional/images/cross.png" width="22px" height="22px" style="vertical-align:middle;">
+					<img onclick="vanishServerSideError()" draggable="false" src="${pageContext.request.contextPath}/additional/images/cross.png" width="22px" height="22px" style="vertical-align:middle;">
 				</div>
 			</div>
 		</div>
@@ -145,7 +145,19 @@
       </div>
       <div class="col-75">
         <%-- <input type="text" id="email" name="email" placeholder="abc@gmail.com"> --%>
-        <form:input id="email" path="email" placeholder="abc@gmail.com"/>
+        <c:choose>
+        	<c:when test="${operation == 'updateCustomer'}">
+        		<form:input class="read-only" id="email" path="email" placeholder="abc@gmail.com" readonly="true"/>
+        		<input type="hidden" name="operation" value="updateCustomer">
+        		<input type="hidden" name="originalEmail" value="${customer.email}">
+        	</c:when>
+        	<c:otherwise>
+        		<form:input id="email" path="email" placeholder="abc@gmail.com"/>
+        		<input type="hidden" name="operation" value="">
+        		<input type="hidden" name="originalEmail" value="">
+        	</c:otherwise>
+        </c:choose>
+        
       </div>
     </div>
     
@@ -190,7 +202,7 @@
     </div>
     
     <%-- Languages --%>
-    <div class="row">
+    <div class="row">  
 	    <div class="col-25">
 	        <label for="gender">Languages</label>
 	      </div>
