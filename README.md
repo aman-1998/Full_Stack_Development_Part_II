@@ -74,3 +74,5 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 56. https://stackoverflow.com/questions/1271641/in-sql-is-update-always-faster-than-deleteinsert <br>
 57. https://stackoverflow.com/questions/29075047/spring-validation-exception-bindexception <br>
 58. https://www.youtube.com/playlist?list=PLsyeobzWxl7ps4Z1C4VMtvZEx5-PgyoYI <br>
+59. https://restfulapi.net/http-status-codes/ <br>
+60. https://www.restapitutorial.com/httpstatuscodes.html <br>
