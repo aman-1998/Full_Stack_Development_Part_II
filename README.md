@@ -11,6 +11,7 @@
 <img src="https://img.shields.io/badge/-JavaScript-yellowgreen" height=30/> 
 <img src="https://img.shields.io/badge/-CSS-9cf" height=30/> 
 <img src="https://img.shields.io/badge/-Spring%20Tool%20Suite%204%20(STS4)-brightgreen" height=30/>
+<img src="https://img.shields.io/badge/-Restful--webservices-%23ffff00" height=30/> 
 
 <h2><strong>Note:-</strong></h2>
 The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_Injection_N13, Spring_Bean_N21, etc. It is recommended to follow the order while learning. This tutorial will be extremely beneficial for those who want to build their career as a "Java Developer" and learn advanced back-end and front-end.
@@ -65,4 +66,14 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 47. https://stackoverflow.com/questions/13388045/oracle-data-source-configuration-for-spring <br>
 48. https://howtodoinjava.com/java/regex/java-regex-validate-email-address/ <br>
 49. https://www.w3schools.com/java/java_regex.asp <br>
-50. https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8/21.4.0.0.1
+50. https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc8/21.4.0.0.1 <br>
+51. https://www.javatpoint.com/spring-mvc-requestparam-annotation <br>
+52. https://initialcommit.com/blog/pass-data-from-jsp-to-spring-controller <br>
+53. https://stackoverflow.com/questions/6989711/spring-mvc-pre-populate-checkboxes <br>
+54. https://stackoverflow.com/questions/1900843/how-to-compare-two-object-variables-in-el-expression-language <br>
+55. https://stackoverflow.com/questions/15875301/how-to-make-spring-form-as-read-only <br>
+56. https://stackoverflow.com/questions/1271641/in-sql-is-update-always-faster-than-deleteinsert <br>
+57. https://stackoverflow.com/questions/29075047/spring-validation-exception-bindexception <br>
+58. https://www.youtube.com/playlist?list=PLsyeobzWxl7ps4Z1C4VMtvZEx5-PgyoYI <br>
+59. https://restfulapi.net/http-status-codes/ <br>
+60. https://www.restapitutorial.com/httpstatuscodes.html <br>
