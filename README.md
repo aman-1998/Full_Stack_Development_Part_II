@@ -77,3 +77,5 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 58. https://www.youtube.com/playlist?list=PLsyeobzWxl7ps4Z1C4VMtvZEx5-PgyoYI <br>
 59. https://restfulapi.net/http-status-codes/ <br>
 60. https://www.restapitutorial.com/httpstatuscodes.html <br>
+61. https://stackoverflow.com/questions/4738817/error-in-hibernate-cfg-xml <br>
+62. https://stackoverflow.com/questions/42065877/entitymanagerfactory-is-closed-hibernate <br>
