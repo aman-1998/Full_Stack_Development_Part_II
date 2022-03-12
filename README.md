@@ -79,3 +79,7 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 60. https://www.restapitutorial.com/httpstatuscodes.html <br>
 61. https://stackoverflow.com/questions/4738817/error-in-hibernate-cfg-xml <br>
 62. https://stackoverflow.com/questions/42065877/entitymanagerfactory-is-closed-hibernate <br>
+63. https://www.ques10.com/p/29518/what-do-you-mean-by-json-why-use-json-over-xml/ <br>
+64. https://spring.io/projects/spring-hateoas <br>
+65. https://spring.io/guides/gs/rest-hateoas/ <br>
+66. https://www.baeldung.com/hibernate-one-to-many <br>
