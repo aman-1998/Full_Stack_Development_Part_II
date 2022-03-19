@@ -17069,3 +17069,4 @@ Caused by: java.lang.NoClassDefFoundError: Could not initialize class org.apache
 2022-03-20 02:37:09,102 [Worker-210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-03-20 02:37:09,103 [Worker-210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2022-03-20 02:37:09,105 [Worker-210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-20 02:37:09,105 [Worker-210: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\DELL\Desktop\STS_Spring\RestApp_JERSEY_location_headers_N67\src\test\resources
