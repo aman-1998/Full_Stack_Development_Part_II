@@ -46,7 +46,7 @@ public class BrandResource {
 	public Response createBrand(Brand brand) {
 		boolean isCreated = brandService.createBrand(brand);
 		if(!isCreated) {
-			return Response.status(Status.EXPECTATION_FAILED).entity("Creation of brand is unsuccessful").build();
+			return Response.status(422).entity("Creation of brand is unsuccessful").build();
 		}
 		return Response.status(Status.CREATED).entity("Brand is created successfully").build();
 	}
@@ -58,7 +58,7 @@ public class BrandResource {
 	public Response updateBrand(@PathParam("brandId") int brandId, Brand brand) {
 		boolean isUpdated = brandService.updateBrand(brandId, brand);
 		if(!isUpdated) {
-			return Response.status(Status.NOT_MODIFIED).entity("Brand with brand id ["+ brandId +"] is not updated").build();
+			return Response.status(Status.NOT_FOUND).entity("Brand with brand id ["+ brandId +"] is not updated").build();
 		}
 		return Response.status(Status.OK).entity("Brand with brand id ["+ brandId +"] is updated successfully").build();
 	}
@@ -69,7 +69,7 @@ public class BrandResource {
 	public Response deleteBrand(@PathParam("brandId") int brandId) {
 		boolean isDeleted = brandService.deleteBrand(brandId);
 		if(!isDeleted) {
-			return Response.status(Status.NOT_ACCEPTABLE).entity("Brand with brand id ["+ brandId +"] is not deleted").build();
+			return Response.status(Status.NOT_FOUND).entity("Brand with brand id ["+ brandId +"] is not deleted").build();
 		}
 		return Response.status(Status.OK).entity("Brand with brand id ["+ brandId +"] is deleted successfully").build();
 	}
