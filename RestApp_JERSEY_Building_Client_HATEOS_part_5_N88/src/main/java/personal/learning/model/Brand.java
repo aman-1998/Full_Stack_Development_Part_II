@@ -1,8 +1,11 @@
-package personal.learning.resources;
+package personal.learning.model;
+
+import java.util.List;
 
 public class Brand {
 	private String brandName;
 	private String brandId;
+	private List<Link> links;
 	
 	public Brand() {}
 
@@ -29,6 +32,14 @@ public class Brand {
 
 	public void setBrandId(String brandId) {
 		this.brandId = brandId;
+	}
+
+	public List<Link> getLinks() {
+		return links;
+	}
+
+	public void setLinks(List<Link> links) {
+		this.links = links;
 	}
 	
 }
