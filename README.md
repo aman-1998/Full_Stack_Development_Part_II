@@ -84,3 +84,4 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 65. https://spring.io/guides/gs/rest-hateoas/ <br>
 66. https://www.baeldung.com/hibernate-one-to-many <br>
 67. https://mkyong.com/hibernate/hibernate-parameter-binding-examples/ <br>
+68. https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started.first-application <br>
