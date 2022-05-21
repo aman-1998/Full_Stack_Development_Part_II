@@ -101,3 +101,5 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 82. https://stackoverflow.com/questions/30528255/how-to-access-a-value-defined-in-the-application-properties-file-in-spring-boot <br>
 83. https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.external-config <br>
 84. https://howtodoinjava.com/hibernate/hibarnate-build-sessionfactory/ <br>
+85. https://howtodoinjava.com/spring-boot2/logging/multiple-log-files/ <br>
+86. https://logback.qos.ch/manual/layouts.html#conversionWord <br>
