@@ -103,3 +103,11 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 84. https://howtodoinjava.com/hibernate/hibarnate-build-sessionfactory/ <br>
 85. https://howtodoinjava.com/spring-boot2/logging/multiple-log-files/ <br>
 86. https://logback.qos.ch/manual/layouts.html#conversionWord <br>
+87. https://logback.qos.ch/manual/filters.html <br>
+88. https://logback.qos.ch <br>
+89. https://www.baeldung.com/spring-controller-vs-restcontroller <br>
+90. https://www.baeldung.com/logback <br>
+91. https://tedblob.com/logback-multiple-log-files/?amp=1 <br>
+92. https://examples.javacodegeeks.com/enterprise-java/logback/logback-additivity-example/ <br>
+93. https://stackoverflow.com/questions/24180772/logback-logger-logging-twice <br>
+94. https://howtodoinjava.com/spring-boot2/rest/rest-with-spring-hateoas-example/ <br>
