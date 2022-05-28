@@ -111,3 +111,13 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 92. https://examples.javacodegeeks.com/enterprise-java/logback/logback-additivity-example/ <br>
 93. https://stackoverflow.com/questions/24180772/logback-logger-logging-twice <br>
 94. https://howtodoinjava.com/spring-boot2/rest/rest-with-spring-hateoas-example/ <br>
+95. https://www.baeldung.com/spring-resttemplate-json-list <br>
+96. https://www.nginx.com/blog/service-discovery-in-a-microservices-architecture/ <br>
+97. https://www.baeldung.com/spring-webclient-resttemplate <br>
+98. https://spring.io/guides/gs/service-registration-and-discovery/ <br>
+99. https://start.spring.io <br>
+100. https://stackoverflow.com/questions/41230164/eureka-unknownhostexception-in-service-discovery <br>
+101. https://www.youtube.com/watch?v=xruvRk1Uf5I <br>
+102. https://www.youtube.com/watch?v=TxjIlNYRZ5M <br>
+103. https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas <br>
+104. https://www.youtube.com/watch?v=PdxPp-cn7bI 
