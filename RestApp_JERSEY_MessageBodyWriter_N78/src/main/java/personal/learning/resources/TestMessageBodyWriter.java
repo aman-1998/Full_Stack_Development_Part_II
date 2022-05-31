@@ -19,7 +19,7 @@ public class TestMessageBodyWriter {
 	
 	@GET
 	@Path("/test")
-	@Produces(MediaType.TEXT_PLAIN)
+	@Produces(MediaType.APPLICATION_JSON)
 	public Name test() {
 		return new Name("Aman", "Mishra");
 	}

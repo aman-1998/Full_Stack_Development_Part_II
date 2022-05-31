@@ -23,7 +23,7 @@ public class ClientBuilding {
 		WebTarget baseUrl = client.target("http://localhost:8080/RestApp_JERSEY_HATEOAS_part_4_N77/showroom/brand");
 		//WebTarget extendedUrl = baseUrl.path("{brandId}");
 		//WebTarget finalUrl = extendedUrl.resolveTemplate("brandId", brandId);
-		Builder builder = baseUrl.request(MediaType.APPLICATION_JSON);
+		Builder builder = baseUrl.request(MediaType.APPLICATION_JSON, MediaType.TEXT_PLAIN);
 		Response response = builder.post(Entity.json(new Brand("Tesla")));
 		return response;
 	}
