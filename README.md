@@ -35,16 +35,16 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
   <li><h3>Spring5_SpringMVC_DB_connectivity_usingXMLconfig_N52</h3> - In this app, there is customer-form. One can create a customer by submitting the form. Both cliet-side and server-side validations are added in the app. If javaScript for the browser is disabled then, also server-side validation will work. Both server and client side validation messages are shown on Customer-Form UI. To connect with database xml based configuration is used. User can update and delete from UI. </li>
   <li><h3>Spring5_SpringMVC_DB_connectivity_Annotation_CRUD_N53</h3> - In this app, there is customer-form. One can create a customer by submitting the form. Both cliet-side and server-side validations are added in the app. If javaScript for the browser is disabled then, also server-side validation will work. Both server and client side validation messages are shown on Customer-Form UI. To connect with database Annotation based configuration is used. User can update and delete from UI. 
 <p align="center">
-  <img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/Image/Personality/image2.png">
-  <br>Client Side validation
+  <img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/image2.png">
+	<br><strong>Client Side validation</strong>
 </p>
 <p align="center">
-  <img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/Image/Personality/image4.png">
-  <br>Server Side validation when JavaScript is off for the browser
+  <img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/image4.png">
+  	<br><strong>Server Side validation when JavaScript is off for the browser</strong>
 </p>
 <p align="center">
-  <img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/Image/Personality/image1.png">
-  <br>List of registered users
+  <img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/image1.png">
+	<br><strong>List of registered users</strong>
 </p>
 </li>
   <li><h3>RestApp_using_JERSEY_N54</h3> - This is a very simple rest-app to show the use of diffrent JERSEY based annotations like @GET, @POST, @PUT, @DELETE, @Path, @PathParam and @Produces. JERSEY is an implementation of JAX-RS 2.0 by Oracle. JAX-RS stands for JAVA API for RESTFUL Web Services. It provides us a java based API which supports in creation of REST(Representational State Transfer) APIs. A collection REST APIs is called RESTful Webservices.</li>
@@ -53,12 +53,12 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
   <li><h3>RestApp_JERSEY_CRUD_with_JSON_N57</h3> - This is a rest-app in which supports CRUD operation on Brand table in database. There is a POJO class Brand which represents database table with name Brand. Hiibernate is connected to the database using hibernate.cfg.xml file. Since, Brand is the entity class, so, different annotations(like @Entity, @Table, @Id, @Column, etc) are used to tell hibernate about the specifications of the entity. @GeneratedValue and @SequenceGenerator is used to auto-increment Brand_Id (pk) using the BRAND_SEQUENCE which is a sequence in the oracle database to generate Brand_Id by incrementing one. The the REST APIs in this app will produce and consume JSON data.</li>
   <li><h3>RestApp_JERSEY_adding_subResource_N58</h3> - This is a rest-app in which there are two POJO classes Brand and Product. APIs are called based on endpoints and type of request. The type of data consumed during POST and PUT request is JSON and PLAIN_TEXT is returned in response. The type of data produced during GET request is JSON and during DELETE is PLAIN_TEXT.
 <p align="center">
-  <img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/Image/Personality/image5.png">
-  <br>Brand Table
+  <img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/image5.png">
+	<br><strong>Brand Table</strong>
 </p>
 <p align="center">
-  <img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/Image/Personality/image6.png">
-  <br>Product Table
+  <img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/image6.png">
+	<br><strong>Product Table</strong>
 </p>
 </li>
   <li><h3>RestApp_JERSEY_add_subResource_many_to_one_N59</h3> - In this rest-app, the JSON response that is received for Product contains Brand information. This is achieved by using referential integrity i.e., @ManyToOne and @JoinColumn annotations in the Product POJO class.</li>
