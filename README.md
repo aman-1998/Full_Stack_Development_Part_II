@@ -107,6 +107,7 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
   <li><h3>SpringBoot_webApp_adding_support_for_JSP_93</h3> - By defult spring-boot doesn't support JSP files. We need to add properties in application.properties to get the support JSP files in spring-boot application.</li>
   <li><h3>SpringBoot_REST_CRUD_hibernate_custom_sessionfactory_94</h3> - This is a rest-app made using spring-boot. Hibernate is used as ORM and sessionFactory is customly configured to connect with oracle database. Database connections are externalized in properties file. The concept of HATEOAS is properly implemented for easy navigation across the app.</li>
   <li><h3>SpringBoot_REST_CRUD_logback_for_logging_95</h3> - This is a rest-app made using spring-boot. Hibernate is used as ORM and sessionFactory is customly configured to connect with oracle database. Database connections are externalized in properties file. The concept of HATEOAS is properly implemented for easy navigation across the app. The logback is used as logging framework to log warnings, errors and important informations. Logback is intended as a successor to the popular log4j project, picking up where log4j 1.x leaves off.</li>
+  <li><h3>SpringBoot_REST_app_checkStatus_96</h3> - This a Rest app that return different responses based on different the values of Query-parameter. If Query-parameter is null or any value other than {big, small} then a BAD_REQUEST is sent as a response.</li>
 </ul>
 
 <h2><strong>Some important links:-</strong></h2>
