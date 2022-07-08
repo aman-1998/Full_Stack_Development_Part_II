@@ -24,7 +24,7 @@ public class Product {
 	
 //	@Column(name="BRAND_ID")
 //	private int brandId;
-
+	
 	@ManyToOne(targetEntity = Brand.class)
 	@JoinColumn(name = "BRAND_ID")
 	private Brand brand;
