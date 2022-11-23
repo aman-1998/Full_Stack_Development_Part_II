@@ -2,7 +2,6 @@ INDEX VERSION 1.131+C:\Users\DELL\Desktop\STS_Spring\.metadata\.plugins\org.ecli
 892960713.index
 2894403745.index
 3352610994.index
-3220767705.index
 110748547.index
 615842502.index
 627636590.index
@@ -44,7 +43,6 @@ INDEX VERSION 1.131+C:\Users\DELL\Desktop\STS_Spring\.metadata\.plugins\org.ecli
 1403888213.index
 1690604243.index
 1560123492.index
-1700883810.index
 2749289791.index
 3711901683.index
 2297911445.index
@@ -62,22 +60,19 @@ INDEX VERSION 1.131+C:\Users\DELL\Desktop\STS_Spring\.metadata\.plugins\org.ecli
 2468362862.index
 1530165173.index
 3199757520.index
+3077602549.index
 3583028155.index
 2866749619.index
 4049438357.index
 2892338059.index
 1483365647.index
-722959521.index
-1603007870.index
 2104910111.index
 1977030693.index
 3634631636.index
-2409449046.index
 1544083519.index
 1829686289.index
 1256727049.index
 2366822646.index
-731248004.index
 1889658511.index
 2608085746.index
 1591384788.index
@@ -87,7 +82,6 @@ INDEX VERSION 1.131+C:\Users\DELL\Desktop\STS_Spring\.metadata\.plugins\org.ecli
 2607541681.index
 2751458155.index
 3938003715.index
-2653116040.index
 2235267327.index
 3597572284.index
 3233662361.index
@@ -154,8 +148,6 @@ INDEX VERSION 1.131+C:\Users\DELL\Desktop\STS_Spring\.metadata\.plugins\org.ecli
 2354143387.index
 934513678.index
 3868733863.index
-1405470975.index
-48741056.index
 1648393267.index
 885956853.index
 327715308.index
