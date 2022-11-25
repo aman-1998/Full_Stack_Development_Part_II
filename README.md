@@ -217,7 +217,7 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 104. https://www.youtube.com/watch?v=PdxPp-cn7bI <br>
 105. https://spring.io/projects/spring-cloud <br>
 106. https://www.freepnglogos.com <br>
-107. https://www.baeldung.com/web-mvc-configurer-adapter-deprecated
+107. https://www.baeldung.com/web-mvc-configurer-adapter-deprecated <br>
 108. https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/form.html <br>
 109. https://www.javadevjournal.com/spring-security/spring-security-login/ <br>
 110. https://o7planning.org/10353/configure-static-resources-in-spring-mvc <br>
