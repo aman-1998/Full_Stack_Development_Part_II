@@ -233,3 +233,5 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 120. https://www.tutorialspoint.com/spring_security/spring_security_with_taglib.htm <br>
 121. https://www.javaguides.net/2019/06/spring-security-how-to-get-current-logged-in-username-in-jsp.html <br>
 122. https://bushansirgur.in/how-to-include-one-jsp-in-another-jsp-example/#:~:text=To%20include%20JSP%20in%20another,name%20of%20the%20JSP%20file. <br>
+123. https://www.baeldung.com/java-config-spring-security <br>
+124. https://www.baeldung.com/spring-security-login <br>
