@@ -215,4 +215,21 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 102. https://www.youtube.com/watch?v=TxjIlNYRZ5M <br>
 103. https://www.youtube.com/watch?v=y8IQb4ofjDo&list=PLqq-6Pq4lTTZSKAFG6aCDVDP86Qx4lNas <br>
 104. https://www.youtube.com/watch?v=PdxPp-cn7bI <br>
-105. https://spring.io/projects/spring-cloud
+105. https://spring.io/projects/spring-cloud <br>
+106. https://www.freepnglogos.com <br>
+107. https://www.baeldung.com/web-mvc-configurer-adapter-deprecated <br>
+108. https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/form.html <br>
+109. https://www.javadevjournal.com/spring-security/spring-security-login/ <br>
+110. https://o7planning.org/10353/configure-static-resources-in-spring-mvc <br>
+111. https://stackoverflow.com/questions/29396281/what-does-configuredefaultservlethandling-means <br>
+112. https://stackoverflow.com/questions/47552835/the-type-webmvcconfigureradapter-is-deprecated <br>
+113. https://mkyong.com/spring-mvc/spring-mvc-webmvcconfigureradapter-is-deprecated/ <br>
+114. https://bbbootstrap.com/snippets/bootstrap-5-login-form-using-neomorphism-89456141 <br>
+115. https://bbbootstrap.com <br>
+116. https://stackoverflow.com/questions/25368535/spring-security-does-not-allow-css-or-js-resources-to-be-loaded <br>
+117. https://github.com/spring-projects/spring-security/issues/4857 <br>
+118. https://docs.spring.io/spring-security/site/docs/4.1.3.RELEASE/guides/html5/helloworld-boot.html <br>
+119. https://codepen.io - Templates with code (No need to download)<br>
+120. https://www.tutorialspoint.com/spring_security/spring_security_with_taglib.htm <br>
+121. https://www.javaguides.net/2019/06/spring-security-how-to-get-current-logged-in-username-in-jsp.html <br>
+122. https://bushansirgur.in/how-to-include-one-jsp-in-another-jsp-example/#:~:text=To%20include%20JSP%20in%20another,name%20of%20the%20JSP%20file. <br>
