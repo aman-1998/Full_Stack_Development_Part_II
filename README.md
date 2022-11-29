@@ -229,3 +229,7 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 116. https://stackoverflow.com/questions/25368535/spring-security-does-not-allow-css-or-js-resources-to-be-loaded <br>
 117. https://github.com/spring-projects/spring-security/issues/4857 <br>
 118. https://docs.spring.io/spring-security/site/docs/4.1.3.RELEASE/guides/html5/helloworld-boot.html <br>
+119. https://codepen.io - Templates with code (No need to download)<br>
+120. https://www.tutorialspoint.com/spring_security/spring_security_with_taglib.htm <br>
+121. https://www.javaguides.net/2019/06/spring-security-how-to-get-current-logged-in-username-in-jsp.html <br>
+122. https://bushansirgur.in/how-to-include-one-jsp-in-another-jsp-example/#:~:text=To%20include%20JSP%20in%20another,name%20of%20the%20JSP%20file. <br>
