@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-                                                        
+                                                            
     
     
     
@@ -12,8 +12,10 @@
     
     
     
-    <wb-module deploy-name="Spring5_SpringMVC_form_hibernate_validation_N51-0.0.1-SNAPSHOT">
-                                                                                                                
+    
+    <wb-module deploy-name="Spring5_SpringMVC_DB_connectivity_Annotation_CRUD_N53-0.0.1-SNAPSHOT">
+                                                                                                                        
+        
         
         
         
@@ -27,7 +29,8 @@
         
         
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
-                                                                                                                
+                                                                                                                        
+        
         
         
         
@@ -41,7 +44,8 @@
         
         
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
-                                                                                                                
+                                                                                                                        
+        
         
         
         
@@ -55,7 +59,8 @@
         
         
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-                                                                                                                
+                                                                                                                        
+        
         
         
         
@@ -69,7 +74,8 @@
         
         
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/target/generated-sources/annotations"/>
-                                                                                                                
+                                                                                                                        
+        
         
         
         
@@ -83,7 +89,8 @@
         
         
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
-                                                                                                                
+                                                                                                                        
+        
         
         
         
@@ -97,8 +104,10 @@
         
         
         <property name="java-output-path" value="/Spring5_Spring_MVC_basic_form_N43/build/classes"/>
+                
         <property name="context-root" value="Spring5_SpringMVC_DB_connectivity_Annotation_CRUD_N53"/>
-                                                                                                            
+                                                                                                                    
+    
     
     
     
@@ -112,7 +121,8 @@
     
     
     </wb-module>
-                                                    
+                                                        
+
 
 
 

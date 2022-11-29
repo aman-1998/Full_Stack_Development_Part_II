@@ -9,7 +9,13 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Login Page</title>
-<link href="${pageContext.request.contextPath}/additional/css/decoration.css" rel="stylesheet" />
+<style>
+
+.failed {
+	color : red;
+}
+
+</style>
 </head>
 <body>
 <h2>Custom Login Form</h2>
