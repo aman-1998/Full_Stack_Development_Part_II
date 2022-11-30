@@ -109,8 +109,18 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
   <li><h3>SpringBoot_REST_CRUD_logback_for_logging_95</h3> - This is a rest-app made using spring-boot. Hibernate is used as ORM and sessionFactory is customly configured to connect with oracle database. Database connections are externalized in properties file. The concept of HATEOAS is properly implemented for easy navigation across the app. The logback is used as logging framework to log warnings, errors and important informations. Logback is intended as a successor to the popular log4j project, picking up where log4j 1.x leaves off.</li>
   <li><h3>SpringBoot_REST_app_checkStatus_96</h3> - This a Rest app that return different responses based on different the values of Query-parameter. If Query-parameter is null or any value other than {big, small} then a BAD_REQUEST is sent as a response.</li>
   <li><h3>Spring5_SpringMVC_no_XML_Only_Java_N97</h3> - This is the spring mvc web application with complete Java based configuration. There is no xml configuration involved here.</li>
-  <li><h3>Spring5_SpringSecurity_part1_N98</h3> - In this project we integrated Spring 5 and SpringSecurity 5.0 and made a basic web application where login-page is provided by SpringSecurity itself.</li>
-  <li><h3>Spring5_SpringSecurity_part2_custom_login_form_N99</h3> - In this project I integrated Spring 5 and SpringSecurity 5.0 and made a web app with custom login page.</li>
+  <li><h3>Spring5_SpringSecurity_part1_N98</h3> - In this project we integrated Spring 5 and SpringSecurity 5.0 and made a basic web application where login-page is provided by SpringSecurity itself.
+		<p align="center">
+  			<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/SpringSecurity_overview.png">
+			<br><strong>Spring-Security overview</strong>
+     		</p>
+  </li>
+  <li><h3>Spring5_SpringSecurity_part2_custom_login_form_N99</h3> - In this project I integrated Spring 5 and SpringSecurity 5.0 and made a web app with custom login page.
+		<p align="center">
+  			<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/SpringSecurity_in_action.png">
+			<br><strong>Spring-Security in action</strong>
+     		</p>
+	</li>
   <li><h3>Spring5_SpringSecurity_part3_beautify_loginPage_N100</h3> - In this project I integrated Spring 5 and SpringSecurity 5.0 and made a web app with custom login page.Additionally I beautified the login page using css and bootstrap.</li>
   <li><h3>Spring5_SpringSecurity_part4_logout_N101</h3> - In this project I integrated Spring 5 and SpringSecurity 5.0 and made a web app with a beautiful custom login page. I also added the logout functionality into the app.
      <p align="center">
@@ -151,6 +161,10 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
   			<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/User_logged_in.png">
 			<br><strong>Home page showing username and roles for a logged in used</strong>
      		</p>
+		<p align="center">
+  			<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/Access_denied_page.png">
+			<br><strong>Simple access-denied page</strong>
+     		</p>  
 	  </ul>
   </li>
 </ul>
