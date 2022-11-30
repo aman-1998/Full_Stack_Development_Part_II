@@ -131,6 +131,28 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 	  	Cross-site request forgery (also known as CSRF) is a web security vulnerability that allows an attacker to induce users to perform actions that they do 		not intend to perform. It allows an attacker to partly circumvent the same origin policy, which is designed to prevent different websites from 			interfering with each other.
 	  </p>
   </li>
+  <li><h3>Spring5_SpringSecurity_part6_User_Roles_N103</h3> - In this project I integrated Spring 5 and SpringSecurity 5.0 and made a web app with login logout functionality. Along with that I also showed username and all the roles for him using SpringSecurity JSTL taglib.</li>
+  <li><h3>Spring5_SpringSecurity_part7_role_based_access_N104</h3> - In this project I integrated Spring 5 and SpringSecurity 5.0 and made a web app with login logout functionality. Along with that I also showed username and all the roles for him using SpringSecurity JSTL taglib. One more functionality added to the web-app is role based access to different web resources.</li>
+  <li><h3>/Spring5_SpringSecurity_part8_role_access_denied_N105</h3> - In this project I integrated Spring 5 and SpringSecurity 5.0 and made a web app with login logout functionality. Along with that I also showed username and all the roles for him using SpringSecurity JSTL taglib. One more functionality added to the web-app is role based access to different web resources. I have also added functionality of custom Access-Denied page for any unauthorized access.
+	  <p>Some of the highlighted features are as follows:-</p>
+	  <ul>
+		<li>Resources from css, js and images folder are allowed and we don't need to authentication for that.</li>
+		<li>Any url with pattern "/notice/**" and "/holiday/**" can be accessed by users with role "STUDENT", "TEACHER", "ADMIN". But without authentication these urls won't be accessible. And if we click on that url without being authenticated, we will be redirected to the login-page.</li>
+		<li>Any url with pattern "/performance" can be accessed by users with role "TEACHER"</li>
+		<li>Any url with pattern "/pendingFees" can be accessed by users with role "ADMIN"</li>
+		<li>Any url for which there is some role assigned, if we try to access that url without logging in then we will be redirected to the login page. After logging in successfully we will either be directly redirected to the page that we tried to access earlier or to the Access-Denied Page depending on the role of the logged in user. But if we click on "Login" button from any page, we will be redirected to login page and after logging in successfully we will be redirected to "/" url or the url specified in MySpringMvcDispatcherServletInitializer class under method getServletMappings().</li>
+		<li>After logout we will be redirected to login page (This is the default behavior). In the login page here we have a Home button.</li>
+		<li>As a logged in user if we try to access any url which is meant to be used by a user with different role then we will be redirected to the Access-Denied page.</li>
+		<p align="center">
+  			<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/User_not_logged_in.png">
+			<br><strong>Home page showing Login button when user is not logged in</strong>
+     		</p>
+		<p align="center">
+  			<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/User_logged_in.png">
+			<br><strong>Home page showing username and roles for a logged in used</strong>
+     		</p>
+	  </ul>
+  </li>
 </ul>
 
 <h2><strong>Some important links:-</strong></h2>
