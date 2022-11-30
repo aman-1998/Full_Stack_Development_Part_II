@@ -108,6 +108,29 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
   <li><h3>SpringBoot_REST_CRUD_hibernate_custom_sessionfactory_94</h3> - This is a rest-app made using spring-boot. Hibernate is used as ORM and sessionFactory is customly configured to connect with oracle database. Database connections are externalized in properties file. The concept of HATEOAS is properly implemented for easy navigation across the app.</li>
   <li><h3>SpringBoot_REST_CRUD_logback_for_logging_95</h3> - This is a rest-app made using spring-boot. Hibernate is used as ORM and sessionFactory is customly configured to connect with oracle database. Database connections are externalized in properties file. The concept of HATEOAS is properly implemented for easy navigation across the app. The logback is used as logging framework to log warnings, errors and important informations. Logback is intended as a successor to the popular log4j project, picking up where log4j 1.x leaves off.</li>
   <li><h3>SpringBoot_REST_app_checkStatus_96</h3> - This a Rest app that return different responses based on different the values of Query-parameter. If Query-parameter is null or any value other than {big, small} then a BAD_REQUEST is sent as a response.</li>
+  <li><h3>Spring5_SpringMVC_no_XML_Only_Java_N97</h3> - This is the spring mvc web application with complete Java based configuration. There is no xml configuration involved here.</li>
+  <li><h3>Spring5_SpringSecurity_part1_N98</h3> - In this project we integrated Spring 5 and SpringSecurity 5.0 and made a basic web application where login-page is provided by SpringSecurity itself.</li>
+  <li><h3>Spring5_SpringSecurity_part2_custom_login_form_N99</h3> - In this project I integrated Spring 5 and SpringSecurity 5.0 and made a web app with custom login page.</li>
+  <li><h3>Spring5_SpringSecurity_part3_beautify_loginPage_N100</h3> - In this project I integrated Spring 5 and SpringSecurity 5.0 and made a web app with custom login page.Additionally I beautified the login page using css and bootstrap.</li>
+  <li><h3>Spring5_SpringSecurity_part4_logout_N101</h3> - In this project I integrated Spring 5 and SpringSecurity 5.0 and made a web app with a beautiful custom login page. I also added the logout functionality into the app.
+     <p align="center">
+  	<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/Custom_Login_Page.png">
+	<br><strong>Custom Login Page</strong>
+     </p>
+     <p align="center">
+  	<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/Custom_Login_Page_invalid.png">
+	<br><strong>Custom Login Page when wrong password given</strong>
+     </p>
+     <p align="center">
+  	<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/Custom_Login_Page_logged_out_mode.png">
+	<br><strong>Custom Login Page after logout</strong>
+     </p>
+  </li>
+  <li><h3>Spring5_SpringSecurity_part5_CSRF_N102</h3> - In this project I integrated Spring 5 and SpringSecurity 5.0 and made a web app with login logout functionality. For demonstration purpose I used <form> tag instead of <form:form> tag and manually included CSRF token in the request.
+	  <p>
+	  	Cross-site request forgery (also known as CSRF) is a web security vulnerability that allows an attacker to induce users to perform actions that they do 		not intend to perform. It allows an attacker to partly circumvent the same origin policy, which is designed to prevent different websites from 			interfering with each other.
+	  </p>
+  </li>
 </ul>
 
 <h2><strong>Some important links:-</strong></h2>
@@ -233,3 +256,5 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 120. https://www.tutorialspoint.com/spring_security/spring_security_with_taglib.htm <br>
 121. https://www.javaguides.net/2019/06/spring-security-how-to-get-current-logged-in-username-in-jsp.html <br>
 122. https://bushansirgur.in/how-to-include-one-jsp-in-another-jsp-example/#:~:text=To%20include%20JSP%20in%20another,name%20of%20the%20JSP%20file. <br>
+123. https://www.baeldung.com/java-config-spring-security <br>
+124. https://www.baeldung.com/spring-security-login <br>
