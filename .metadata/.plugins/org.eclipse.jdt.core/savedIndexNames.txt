@@ -3,7 +3,6 @@ INDEX VERSION 1.131+C:\Users\DELL\Desktop\STS_Spring\.metadata\.plugins\org.ecli
 756406424.index
 1816588230.index
 1463456015.index
-701411181.index
 1635998771.index
 349441469.index
 1962781781.index

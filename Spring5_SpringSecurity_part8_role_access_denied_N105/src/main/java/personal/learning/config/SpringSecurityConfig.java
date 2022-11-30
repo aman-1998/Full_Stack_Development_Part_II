@@ -26,16 +26,34 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 	
 	protected void configure(HttpSecurity http) throws Exception {
 		
+		/*
+		 * 1. Resources from css, js and images folder are allowed and we don't need to authentication for that.
+		 * 2. Any url with pattern "/notice/**" and "/holiday/**" can be accessed by users with role "STUDENT", "TEACHER", "ADMIN".
+		 * 	  But without authentication these urls won't be accessible. And if we click on that url without being authenticated,
+		 * 	  we will be redirected to the login-page.
+		 * 3. Any url with pattern "/performance" can be accessed by users with role "TEACHER"
+		 * 4. Any url with pattern "/pendingFees" can be accessed by users with role "ADMIN"
+		 * 5. Any url for which there is some role assigned, if we try to access that url without logging in then we will be redirected to the login page.
+		 * 	  After logging in successfully we will either be directly redirected to the page that we tried to access earlier or to the Access-Denied Page depending on the role of the logged in user. But if we click on "Login" button from any page, we
+		 *    will be redirected to login page and after logging in successfully we will be redirected to "/" url or the url specified in 
+		 *    MySpringMvcDispatcherServletInitializer class under method getServletMappings().
+		 * 6. After logout we will be redirected to login page (This is the default behavior). In the login page here we have a Home button.
+		 * 7. As a logged in user if we try to access any url which is meant to be used by a user with different role then we will be redirected to the Access-Denied page.
+		 * 
+		 * Note:- The behaviors mentioned here are default.
+		 */
+		
 		http.authorizeRequests()
-			.antMatchers("/additional/css/**", "/additional/js/**", "/additional/images/**")
-			.permitAll()
+		
 			.antMatchers("/notice/**", "/holiday/**").hasAnyRole("STUDENT", "TEACHER", "ADMIN")
+			// or // .antMatchers("/notice/**", "/holiday/**").authenticated() // This means to access these urls user must login successfully. And as we have only 3 roles so, either of the lines(48 or 49) will give same result.
+			
 			.antMatchers("/performance/**").hasRole("TEACHER")
 			.antMatchers("/pendingFees/**").hasRole("ADMIN")
 			.and()
 			.formLogin()
-			.loginPage("/myLogin")
-			.loginProcessingUrl("/authenticateUser")
+			.loginPage("/myLogin") //GET
+			.loginProcessingUrl("/authenticateUser") // POST
 			.permitAll()
 			.and()
 			.logout()

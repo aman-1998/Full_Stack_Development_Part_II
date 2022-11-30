@@ -19,7 +19,7 @@
         <div class="logo">
             <img src="https://www.khems.co.in/wp-content/uploads/2016/11/khems-logo-composed-1.png" alt="Bharat">
         </div>
-        <form:form class="p-3 mt-3" action="${pageContext.request.contextPath}/authenticateUser" method="POST">
+        <form:form class="p-3 mt-3" action="${pageContext.request.contextPath}/authenticateUser" method="POST"> <%-- POST is mandatory --%>
             <div class="form-field d-flex align-items-center">
                 <span class="far fa-user"></span>
                 <input type="text" name="username" id="userName" placeholder="Username">

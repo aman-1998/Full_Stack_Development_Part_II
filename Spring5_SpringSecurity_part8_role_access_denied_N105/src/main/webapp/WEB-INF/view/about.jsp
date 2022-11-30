@@ -24,7 +24,7 @@
   <li><a class="active" href="${pageContext.request.contextPath}/about">About</a></li>
 </ul>
 
-<div style="margin-left:25%;padding:1px 16px;height:700px;">
+<div style="margin-left:25%;padding:1px 16px;height:866px;">
   <p style="text-align: center">
 	  <a href="${pageContext.request.contextPath}/">
 		<img src="https://www.khems.co.in/wp-content/uploads/2016/11/khems-logo-composed-1.png" alt="KHEMS" height="120" width="118">
@@ -49,7 +49,7 @@
   </security:authorize>
   <security:authorize access="!isAuthenticated()">
 	<p>
-		<a href="${pageContext.request.contextPath}/myLogin"><button>Login</button></a>
+		<a href="${pageContext.request.contextPath}/myLogin"><button>Login</button></a> <%-- By default GET --%>
 	</p>
   </security:authorize>
   <hr>

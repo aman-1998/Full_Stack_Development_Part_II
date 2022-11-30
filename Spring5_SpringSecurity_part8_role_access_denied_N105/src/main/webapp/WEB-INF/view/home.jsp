@@ -42,14 +42,14 @@
 		</tr>
 	  </table>
 	  <p>
-		<form:form action="${pageContext.request.contextPath}/logout" method="POST">
+		<form:form action="${pageContext.request.contextPath}/logout" method="POST"> <%-- /logout is default and POST is mandatory --%>
 			<input type="submit" value="Logout">
 		</form:form>
 	  </p>
   </security:authorize>
   <security:authorize access="!isAuthenticated()">
 	<p>
-		<a href="${pageContext.request.contextPath}/myLogin"><button>Login</button></a>
+		<a href="${pageContext.request.contextPath}/myLogin"><button>Login</button></a> <%-- By default GET --%>
 	</p>
   </security:authorize>
   <hr>
