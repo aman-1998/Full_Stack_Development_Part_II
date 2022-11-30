@@ -159,7 +159,7 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
      		</p>
 		<p align="center">
   			<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/User_logged_in.png">
-			<br><strong>Home page showing username and roles for a logged in used</strong>
+			<br><strong>Home page showing username, roles and Logout button for a logged in used</strong>
      		</p>
 		<p align="center">
   			<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/Access_denied_page.png">
