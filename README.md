@@ -111,13 +111,13 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
   <li><h3>Spring5_SpringMVC_no_XML_Only_Java_N97</h3> - This is the spring mvc web application with complete Java based configuration. There is no xml configuration involved here.</li>
   <li><h3>Spring5_SpringSecurity_part1_N98</h3> - In this project we integrated Spring 5 and SpringSecurity 5.0 and made a basic web application where login-page is provided by SpringSecurity itself.
 		<p align="center">
-  			<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/SpringSecurity_overview.png">
+  			<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/SpringSecurity_overview.PNG">
 			<br><strong>Spring-Security overview</strong>
      		</p>
   </li>
   <li><h3>Spring5_SpringSecurity_part2_custom_login_form_N99</h3> - In this project I integrated Spring 5 and SpringSecurity 5.0 and made a web app with custom login page.
 		<p align="center">
-  			<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/SpringSecurity_in_action.png">
+  			<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/SpringSecurity_in_action.PNG">
 			<br><strong>Spring-Security in action</strong>
      		</p>
 	</li>
@@ -128,11 +128,11 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 	<br><strong>Custom Login Page</strong>
      </p>
      <p align="center">
-  	<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/Custom_Login_Page_invalid.png">
+  	<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/Custom_Login_Page_invalid.PNG">
 	<br><strong>Custom Login Page when wrong password given</strong>
      </p>
      <p align="center">
-  	<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/Custom_Login_Page_logged_out_mode.png">
+  	<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/Custom_Login_Page_logged_out_mode.PNG">
 	<br><strong>Custom Login Page after logout</strong>
      </p>
   </li>
@@ -159,7 +159,7 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
      		</p>
 		<p align="center">
   			<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/User_logged_in.png">
-			<br><strong>Home page showing username and roles for a logged in used</strong>
+			<br><strong>Home page showing username, roles and Logout button for a logged in used</strong>
      		</p>
 		<p align="center">
   			<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/Access_denied_page.png">
