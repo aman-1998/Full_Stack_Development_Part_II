@@ -294,3 +294,4 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 122. https://bushansirgur.in/how-to-include-one-jsp-in-another-jsp-example/#:~:text=To%20include%20JSP%20in%20another,name%20of%20the%20JSP%20file. <br>
 123. https://www.baeldung.com/java-config-spring-security <br>
 124. https://www.baeldung.com/spring-security-login <br>
+125. https://www.youtube.com/watch?v=U-NQlwbgZLo - Common User (user in CDB) and Local User (user in PDB) in Oracle database<br>
