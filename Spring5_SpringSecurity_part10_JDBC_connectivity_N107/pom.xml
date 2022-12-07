@@ -3,11 +3,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>personal.learning</groupId>
-	<artifactId>Spring5_SpringSecurity_part8_role_access_denied_N105</artifactId>
+	<artifactId>Spring5_SpringSecurity_part10_JDBC_connectivity_N107</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
 	
-	<name>Spring5_SpringSecurity_part8_role_access_denied_N105</name>
+	<name>Spring5_SpringSecurity_part10_JDBC_connectivity_N107</name>
 	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -120,7 +120,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>Spring5_SpringSecurity_part8_role_access_denied_N105</finalName>
+		<finalName>Spring5_SpringSecurity_part10_JDBC_connectivity_N107</finalName>
 		<pluginManagement>
 			<plugins>
 				<plugin>
