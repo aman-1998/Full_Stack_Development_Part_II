@@ -294,4 +294,15 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 122. https://bushansirgur.in/how-to-include-one-jsp-in-another-jsp-example/#:~:text=To%20include%20JSP%20in%20another,name%20of%20the%20JSP%20file. <br>
 123. https://www.baeldung.com/java-config-spring-security <br>
 124. https://www.baeldung.com/spring-security-login <br>
-125. https://www.youtube.com/watch?v=U-NQlwbgZLo - Common User (user in CDB) and Local User (user in PDB) in Oracle database<br>
+125. https://www.youtube.com/watch?v=U-NQlwbgZLo - Common User (user in CDB) and Local User (user in PDB) in Oracle database <br>
+126. https://www.baeldung.com/spring-security-jdbc-authentication <br>
+127. https://docs.spring.io/spring-security/site/docs/4.2.x/reference/html/appendix-schema.html <br>
+128. https://mkyong.com/spring-security/spring-security-form-login-using-database/ <br>
+129. https://www.baeldung.com/hibernate-c3p0 <br>
+130. https://mvnrepository.com/artifact/com.mchange/c3p0/0.9.5.5 <br>
+131. https://www.mchange.com/projects/c3p0/ - c3p0 connection pooling <br>
+132. https://danboterhoven.medium.com/why-you-should-use-bcrypt-to-hash-passwords-af330100b861 <br>
+133. https://en.wikipedia.org/wiki/Bcrypt <br>
+134. https://crackstation.net/hashing-security.htm - Salted Password Hashing <br>
+135. https://www.bcryptcalculator.com - Generate Bcrypt passwords <br>
+136. https://www.aegissofttech.com/articles/bcrypt-password-encoding-spring-security.html - Encrypt password using Bcrypt algorithm <br>
