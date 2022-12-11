@@ -306,3 +306,4 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 134. https://crackstation.net/hashing-security.htm - Salted Password Hashing <br>
 135. https://www.bcryptcalculator.com - Generate Bcrypt passwords <br>
 136. https://www.aegissofttech.com/articles/bcrypt-password-encoding-spring-security.html - Encrypt password using Bcrypt algorithm <br>
+137. https://www.youtube.com/watch?v=3xSeynG0-zM - Signin and Login with Bcrypt password <br>
