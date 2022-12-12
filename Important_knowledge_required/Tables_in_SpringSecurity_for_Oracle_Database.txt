@@ -26,11 +26,11 @@ CREATE TABLE "SCHOOL" (
 
 
 Table USERS:-
-USERNAME    PASSWORD   Enabled                                                                                                                      E
+USERNAME    PASSWORD   Enabled                                                                                                                      
 ----------- ---------- --------
-aman        test123    Y                                                                                                                      Y
-madhav      test123    Y                                                                                                                     Y
-rakhi       test123    Y                                                                                                                     Y
+aman        test123    Y                                                                                                                      
+madhav      test123    Y                                                                                                                     
+rakhi       test123    Y                                                                                                                     
 nitu        test123    Y
 
 
