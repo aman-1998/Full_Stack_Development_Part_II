@@ -307,3 +307,11 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 135. https://www.bcryptcalculator.com - Generate Bcrypt passwords <br>
 136. https://www.aegissofttech.com/articles/bcrypt-password-encoding-spring-security.html - Encrypt password using Bcrypt algorithm <br>
 137. https://www.youtube.com/watch?v=3xSeynG0-zM - Signin and Login with Bcrypt password <br>
+138. https://www.digitalocean.com/community/tutorials/spring-hibernate-integration-example-tutorial <br>
+139. https://stackoverflow.com/questions/1099025/spring-transactional-what-happens-in-background <br>
+140. https://www.baeldung.com/transaction-configuration-with-jpa-and-spring <br>
+141. https://www.baeldung.com/hibernate-c3p0 - Hibernate with c3p0 connection pool <br>
+142. https://stackoverflow.com/questions/475893/what-are-the-required-c3p0-settings-for-hibernate-in-order-to-avoid-deadlocks <br>
+143. https://mkyong.com/hibernate/how-to-configure-the-c3p0-connection-pool-in-hibernate/ <br>
+144. https://howtodoinjava.com/hibernate/hibernate-c3p0-connection-pool-configuration-tutorial/#1-maven-dependencies <br>
+145. https://howtodoinjava.com/hibernate/hibernate-c3p0-connection-pool-configuration-tutorial/#1-maven-dependencies <br>
