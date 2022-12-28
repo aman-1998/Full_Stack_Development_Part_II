@@ -315,3 +315,4 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 143. https://mkyong.com/hibernate/how-to-configure-the-c3p0-connection-pool-in-hibernate/ <br>
 144. https://howtodoinjava.com/hibernate/hibernate-c3p0-connection-pool-configuration-tutorial/#1-maven-dependencies <br>
 145. https://howtodoinjava.com/hibernate/hibernate-c3p0-connection-pool-configuration-tutorial/#1-maven-dependencies <br>
+146. https://thorben-janssen.com/jpa-native-queries/#resultHandling <br>
