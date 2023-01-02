@@ -316,3 +316,5 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 144. https://howtodoinjava.com/hibernate/hibernate-c3p0-connection-pool-configuration-tutorial/#1-maven-dependencies <br>
 145. https://howtodoinjava.com/hibernate/hibernate-c3p0-connection-pool-configuration-tutorial/#1-maven-dependencies <br>
 146. https://thorben-janssen.com/jpa-native-queries/#resultHandling <br>
+147. https://docs.jboss.org/hibernate/stable/validator/api/org/hibernate/validator/constraints/package-summary.html - Hibernate validator constraints <br>
+148. https://docs.jboss.org/hibernate/validator/3.1/reference/en/html_single/ - Javax validation constraints <br>
