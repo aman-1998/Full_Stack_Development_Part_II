@@ -318,3 +318,4 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 146. https://thorben-janssen.com/jpa-native-queries/#resultHandling <br>
 147. https://docs.jboss.org/hibernate/stable/validator/api/org/hibernate/validator/constraints/package-summary.html - Hibernate validator constraints <br>
 148. https://docs.jboss.org/hibernate/validator/3.1/reference/en/html_single/ - Javax validation constraints <br>
+149. https://stackoverflow.com/questions/11244569/what-is-referencedcolumnname-used-for-in-jpa <br>
