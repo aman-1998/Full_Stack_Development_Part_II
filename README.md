@@ -319,4 +319,20 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 147. https://docs.jboss.org/hibernate/stable/validator/api/org/hibernate/validator/constraints/package-summary.html - Hibernate validator constraints <br>
 148. https://docs.jboss.org/hibernate/validator/3.1/reference/en/html_single/ - Javax validation constraints <br>
 149. https://stackoverflow.com/questions/11244569/what-is-referencedcolumnname-used-for-in-jpa <br>
-150. https://mkyong.com/hibernate/hibernate-parameter-binding-examples/#:~:text=It%27s%20use%20question%20mark%20(%3F),stockCode%20%3D%20%3F%20and%20s.
+150. https://mkyong.com/hibernate/hibernate-parameter-binding-examples/#:~:text=It%27s%20use%20question%20mark%20(%3F),stockCode%20%3D%20%3F%20and%20s. <br>
+151. https://www.digitalocean.com/community/tutorials/java-clone-object-cloning-java - Cloning <br>
+152. https://turreta.com/2017/07/13/clone-objects-java-generics-using-apache-commons-lang-objectutils/ Cloning genrics using ObjectUtils <br>
+153. https://www.tutorialspoint.com/hibernate/hibernate_native_sql.htm - Native Query in Hibernate <br>
+154. https://www.digitalocean.com/community/tutorials/hibernate-native-sql-query-example <br>
+155. https://thorben-janssen.com/jpa-native-queries/#resultHandling <br>
+156. https://stackoverflow.com/questions/9908082/does-a-hibernate-transaction-rollback-delete-session-flushed-entities <br>
+157. http://wiki.openbravo.com/wiki/Hibernate_5.3_Migration_Guide#Typed_Queries - ResultTransformer in Hibernate <br>
+158. https://www.baeldung.com/jpa-sql-resultset-mapping <br>
+159. https://stackoverflow.com/questions/1780896/java-getting-the-properties-of-a-class-to-construct-a-string-representation - getting list of fields in a class <br>
+160. https://www.geeksforgeeks.org/clone-method-in-java-2/ <br>
+161. https://mvnrepository.com/artifact/org.apache.commons/commons-lang3/3.12.0 - Apache Commons <br>
+162. https://www.geeksforgeeks.org/hibernate-native-sql/ <br>
+163. https://howtodoinjava.com/hibernate/hibernate-many-to-many-mapping/  - ManyToMany <br>
+164. https://stackoverflow.com/questions/21985308/how-is-the-owning-side-of-this-many-to-many-relationship-determined  - Owning entity <br>
+165. https://stackoverflow.com/questions/36803306/should-jointable-be-specified-in-both-sides-of-a-manytomany-relationship  - Two owning entities <br>
+166. https://levelup.gitconnected.com/how-to-deal-with-the-remote-host-identification-has-changed-message-with-github-1dea015dae8d - WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED! <br>
