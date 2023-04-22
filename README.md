@@ -336,3 +336,5 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 164. https://stackoverflow.com/questions/21985308/how-is-the-owning-side-of-this-many-to-many-relationship-determined  - Owning entity <br>
 165. https://stackoverflow.com/questions/36803306/should-jointable-be-specified-in-both-sides-of-a-manytomany-relationship  - Two owning entities <br>
 166. https://levelup.gitconnected.com/how-to-deal-with-the-remote-host-identification-has-changed-message-with-github-1dea015dae8d - WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED! <br>
+167. https://www.javatpoint.com/java-date-to-string <br>
+168. https://www.javatpoint.com/java-string-to-date <br>
