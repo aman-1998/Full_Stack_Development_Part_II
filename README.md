@@ -338,3 +338,5 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 166. https://levelup.gitconnected.com/how-to-deal-with-the-remote-host-identification-has-changed-message-with-github-1dea015dae8d - WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED! <br>
 167. https://www.javatpoint.com/java-date-to-string - Date to String <br>
 168. https://www.javatpoint.com/java-string-to-date - String to Date <br>
+169. https://www.techiedelight.com/print-all-keys-values-from-properties-file-java/ - Access value in properties file in Java <br>
+170. https://stackabuse.com/how-to-access-property-file-values-in-spring-boot/ - Access value in properties file in Spring / Spring Boot <br>
