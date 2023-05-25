@@ -340,5 +340,5 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 168. https://www.javatpoint.com/java-string-to-date - String to Date <br>
 169. https://www.techiedelight.com/print-all-keys-values-from-properties-file-java/ - Access value in properties file in Java <br>
 170. https://stackabuse.com/how-to-access-property-file-values-in-spring-boot/ - Access value in properties file in Spring / Spring Boot <br>
-171. https://javabeat.net/spring-mvc-component-scan-annotations/ <br>
-172. https://www.baeldung.com/spring-contextannotation-contextcomponentscan <br>
+171. https://javabeat.net/spring-mvc-component-scan-annotations/ - component-scan Vs annotation-config Vs annotation-driven <br>
+172. https://www.baeldung.com/spring-contextannotation-contextcomponentscan - component-scan Vs annotation-config <br>
