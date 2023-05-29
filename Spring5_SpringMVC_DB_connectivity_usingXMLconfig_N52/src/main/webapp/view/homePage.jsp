@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Error</title>
+<title>Home</title>
 <link href="${pageContext.request.contextPath}/additional/css/beautify.css" rel="stylesheet">
 </head>
 <body>

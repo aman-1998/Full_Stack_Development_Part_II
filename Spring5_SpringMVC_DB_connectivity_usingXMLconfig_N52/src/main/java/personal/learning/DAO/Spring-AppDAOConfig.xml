@@ -15,7 +15,7 @@
 	    <property name="dataSourceName" value="ds"/>
     	<property name="URL" value="jdbc:oracle:thin:@localhost:1521:XE"/>
     	<property name="user" value="SYSTEM"/>
-    	<property name="password" value="SYSTEM"/>
+    	<property name="password" value="ORACLE"/>
    </bean>
    
    <bean id="DAOBean" class="personal.learning.DAO.AppDAOImpl">

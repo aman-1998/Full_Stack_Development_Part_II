@@ -11,7 +11,7 @@ public class Customer {
 	
 	@NotBlank(message = "Name is a required field")
 	private String name;
-	
+
 	@NotEmpty(message = "Date of birth must be specified")
 	private String dob;
 	
