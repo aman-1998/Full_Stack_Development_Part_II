@@ -47,7 +47,7 @@
 				<td>${customer.address}</td>
 				<td>
 					<c:url var="updateCus" value="updateCustomerInfo">
-	                	<c:param name="operation" value="updateCustomer"></c:param>
+	                <%-- <c:param name="operation" value="updateCustomer"></c:param> --%>
 	                    <c:param name="name" value="${customer.name}"></c:param>
 	                    <c:param name="email" value="${customer.email}"></c:param>
 	                    <c:param name="dob" value="${customer.dob}"></c:param>

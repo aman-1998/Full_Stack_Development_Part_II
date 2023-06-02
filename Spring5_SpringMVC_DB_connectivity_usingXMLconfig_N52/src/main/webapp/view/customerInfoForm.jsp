@@ -149,7 +149,7 @@
         	<c:when test="${operation == 'updateCustomer'}">
         		<form:input class="read-only" id="email" path="email" placeholder="abc@gmail.com" readonly="true"/>
         		<input type="hidden" name="operation" value="updateCustomer">
-        		<input type="hidden" name="originalEmail" value="${customer.email}">
+        		<input type="hidden" name="originalEmail" value="${originalEmail}">
         	</c:when>
         	<c:otherwise>
         		<form:input id="email" path="email" placeholder="abc@gmail.com"/>
@@ -167,7 +167,7 @@
         <label for="dob">Date Of Birth</label>
       </div>
       <div class="col-75">
-        <input type="date" id="dob" name="dob" autocomplete="on">
+        <input type="date" id="dob" name="dob" value="${customer.getDob()}" autocomplete="on">
       </div>
     </div>
     

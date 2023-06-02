@@ -10,7 +10,7 @@ public class Utility {
 		Date dateOfBirth = null;
 		if(cusDob != null) {
 			if(!cusDob.equals("")) {
-				SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-DD");
+				SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
 				try {
 					dateOfBirth = formatter.parse(cusDob);
 				} catch (ParseException e) {

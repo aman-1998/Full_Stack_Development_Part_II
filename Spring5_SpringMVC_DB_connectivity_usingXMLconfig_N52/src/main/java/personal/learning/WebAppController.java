@@ -57,7 +57,7 @@ public class WebAppController {
 	}
 	
 	@RequestMapping(value="updateCustomerInfo", method=RequestMethod.GET)
-	public ModelAndView updateCustomer(@RequestParam("operation") String operation,
+	public ModelAndView updateCustomer(//@RequestParam("operation") String operation,
 							   		   @RequestParam("name") String name, 
 									   @RequestParam("email") String email,
 									   @RequestParam("dob") String dob,
@@ -67,6 +67,10 @@ public class WebAppController {
 									   @RequestParam("language") String[] language,
 									   @RequestParam("address") String address) {
 		Date dateOfBirth = Utility.convertDateToDisplayFormat(dob);
+		
+		SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
+		dob = formatter.format(dateOfBirth);
+		
 		Customer customer = new Customer(email, name, gender, dateOfBirth, dob, country, countryName, language, address);
 		ModelAndView modelAndView = new ModelAndView("customerInfoForm");
 		
@@ -91,12 +95,13 @@ public class WebAppController {
 		modelAndView.addObject("genderMap", genderMap);
 		modelAndView.addObject("countryMap", countryMap);
 		modelAndView.addObject("langMap", langMap);	
-		modelAndView.addObject("operation", operation);
+		modelAndView.addObject("operation", "updateCustomer");
+		modelAndView.addObject("originalEmail", customer.getEmail());
 		modelAndView.addObject("customer", customer);
 		return modelAndView;
 	}
 	
-	@RequestMapping(value="form", method=RequestMethod.GET)
+	@RequestMapping(value="/form", method=RequestMethod.GET)
 	public ModelAndView loadForm() {
 		ModelAndView modelAndView = new ModelAndView("customerInfoForm");
 		Customer customer = new Customer();
@@ -147,11 +152,12 @@ public class WebAppController {
 		
 		if(customer.getDob() != null) {
 			if(!customer.getDob().equals("")) {
-				SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-DD");
+				SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd");
 				Date dateOfBirth = null;
 				try {
 					dateOfBirth = formatter.parse(customer.getDob());
 					customer.setDateOfBirth(dateOfBirth);
+					customer.setDob(formatter.format(dateOfBirth));
 				} catch (ParseException e) {
 					result.rejectValue("dob", "error.dob.invalid");
 				} 
@@ -183,12 +189,15 @@ public class WebAppController {
 			repopulatedmodelAndView.addObject("langMap", langMap);
 			
 			repopulatedmodelAndView.addObject("customer", customer);
+			repopulatedmodelAndView.addObject("operation", operation);
+			repopulatedmodelAndView.addObject("originalEmail", originalEmail);
+			
 			return repopulatedmodelAndView;
 		} else {
 			ModelAndView modelAndView = new ModelAndView("displayInformation");
 			modelAndView.addObject("customer", customer);
 			if(operation.equals("updateCustomer")) {
-				dao.removeCustomer(customer.getEmail());
+				dao.removeCustomer(originalEmail);
 				dao.saveCustomer(customer);
 			} else {
 				dao.saveCustomer(customer);
