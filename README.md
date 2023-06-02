@@ -342,4 +342,4 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 170. https://stackabuse.com/how-to-access-property-file-values-in-spring-boot/ - Access value in properties file in Spring / Spring Boot <br>
 171. https://javabeat.net/spring-mvc-component-scan-annotations/ - component-scan Vs annotation-config Vs annotation-driven <br>
 172. https://www.baeldung.com/spring-contextannotation-contextcomponentscan - component-scan Vs annotation-config <br>
-173. https://stackoverflow.com/questions/14212527/how-to-set-default-value-to-the-inputtype-date - Default population of input typr date <br>
+173. https://stackoverflow.com/questions/14212527/how-to-set-default-value-to-the-inputtype-date - Default population of input type date <br>
