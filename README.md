@@ -347,3 +347,4 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 175. https://www.geeksforgeeks.org/understanding-rainbow-table-attack/ <br>
 176. https://www.baeldung.com/spring-security-registration-password-encoding-bcrypt - <b>Registration with Spring Security (Bcrypt)</b> <br>
 177. https://bcrypt-generator.com - <b>Bcrypt Generator with various strength</b> <br>
+178. https://www.youtube.com/watch?v=z6o3YyYTiiI - Change Password of a User in Oracle database <br>
