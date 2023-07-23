@@ -4,7 +4,7 @@ Spring5_SpringSecurity_part10_JDBC_connectivity_N107
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-Understanding creation of user in CDB & PDB and granting verious privileges.
+Understanding creation of user in CDB & PDB and granting various privileges.
 
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
@@ -170,6 +170,12 @@ connect c##practice/c##practice#xepdb1;
 ##################################################
 
 Youtube Link: https://www.youtube.com/watch?v=U-NQlwbgZLo
+
+https://www.youtube.com/watch?v=z6o3YyYTiiI
+
+############################################################
+
+GRANT ALL PRIVILEGES TO c##spring_security;
 
 
 

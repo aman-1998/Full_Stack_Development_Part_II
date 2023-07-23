@@ -2,6 +2,7 @@ package personal.learning.config;
 
 import java.beans.PropertyVetoException;
 import java.sql.SQLException;
+import java.util.Properties;
 
 import javax.sql.DataSource;
 
@@ -36,7 +37,6 @@ public class DBConfiguration {
 			cpDataSource.setPassword(env.getProperty("db.password"));
 			
 			// set connection pool properties
-			
 			cpDataSource.setInitialPoolSize(getIntProperty("connection.pool.initialPoolSize"));
 			cpDataSource.setMinPoolSize(getIntProperty("connection.pool.minPoolSize"));
 			cpDataSource.setMaxPoolSize(getIntProperty("connection.pool.maxPoolSize"));

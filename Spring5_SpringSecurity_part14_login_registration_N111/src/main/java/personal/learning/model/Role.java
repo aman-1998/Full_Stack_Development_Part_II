@@ -1,43 +1,61 @@
 package personal.learning.model;
 
+import java.util.List;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToOne;
 import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
 
+@Entity(name="Role")
+@Table(name="Role")
 public class Role {
 	
 	@Id
-	@Column(name="ROLE_ID")
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "role_generator")
-	@SequenceGenerator(name = "role_generator", sequenceName = "ROLE_SEQUENCE", allocationSize = 1)
-	private int roleId;
+	@Column(name="id")
+	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="role_generator")
+	@SequenceGenerator(name="role_generator", sequenceName="role_sequence", allocationSize=1)
+	private int id;
 	
-	@Column(name="AUTHORITY")
-	private String authority;
+	@Column(name="role_name")
+	private String roleName;
 	
-	public Role() {}
+	@ManyToOne(fetch=FetchType.EAGER, cascade={CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
+	@JoinTable(name="user_role",
+			   joinColumns=@JoinColumn(name="role_id"),
+			   inverseJoinColumns=@JoinColumn(name="user_id"))
+	private List<User> listOfUsers;
 	
-	public Role(int roleId, String authority) {
-		this.roleId = roleId;
-		this.authority = authority;
+	public Role() {
+		
 	}
 	
-	public int getRoleId() {
-		return roleId;
+	public Role(String roleName) {
+		this.roleName = roleName;
 	}
-	
-	public void setRoleId(int roleId) {
-		this.roleId = roleId;
+
+	public int getId() {
+		return id;
 	}
-	
-	public String getAuthority() {
-		return authority;
+
+	public void setId(int id) {
+		this.id = id;
 	}
-	
-	public void setAuthority(String authority) {
-		this.authority = authority;
+
+	public String getRoleName() {
+		return roleName;
+	}
+
+	public void setRoleName(String roleName) {
+		this.roleName = roleName;
 	}
 	
 }

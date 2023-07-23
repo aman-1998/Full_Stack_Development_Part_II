@@ -34,7 +34,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 			.and()
 			.formLogin() // customize login process
 			.loginPage("/customLoginForm") // login page url
-			.loginProcessingUrl("/authenticateUser") // login details to be submitted to this url. We don't need to write it in controller as SpringSecurity wil take care of it
+			.loginProcessingUrl("/authenticateUser") // login details to be submitted to this url. We don't need to write it in controller as SpringSecurity will take care of it
 			.permitAll();
 	}
 	

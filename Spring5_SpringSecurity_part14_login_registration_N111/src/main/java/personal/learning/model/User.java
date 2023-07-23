@@ -1,96 +1,106 @@
 package personal.learning.model;
 
+import java.util.List;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToMany;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
-@Entity
-@Table(name="USER")
+@Entity(name="user")
+@Table(name="user")
 public class User {
 	
 	@Id
-	@Column(name="USER_ID")
-	@GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "user_generator")
-	@SequenceGenerator(name = "user_generator", sequenceName = "USER_SEQUENCE", allocationSize = 1)
-	private int userId;
+	@Column(name="id")
+	@GeneratedValue(strategy=GenerationType.SEQUENCE, generator="user_generator")
+	@SequenceGenerator(name="user_generator", sequenceName="user_sequence", allocationSize=1)
+	private int id;
 	
-	@Column(name="FULL_NAME")
-	private String fullName;
+	@Column(name="user_name", unique=true)
+	private String userName;
 	
-	@Column(name="USERNAME")
-	private String username;
-	
-	@Column(name="EMAIL")
-	private String email;
-	
-	@Column(name="PASSWORD")
+	@Column(name="password")
 	private String password;
 	
-	@Column(name="ENABLED")
-	private String enabled;
+	@Column(name="enabled")
+	private char enabled;
 	
-	public User() {}
+	@Column(name="first_name")
+	private String firstName;
 	
-	public User(int userId, String fullName, String username, 
-			    String email, String password, String enabled) {
-		this.userId = userId;
-		this.fullName = fullName;
-		this.username = username;
-		this.email = email;
+	@Column(name="last_name")
+	private String lastName;
+	
+	@ManyToMany(fetch=FetchType.EAGER, cascade={CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
+	@JoinTable(name="user_role",
+			   joinColumns=@JoinColumn(name="user_id"),
+			   inverseJoinColumns=@JoinColumn(name="role_id"))
+	private List<Role> listOfRoles;
+	
+	public User() {
+		
+	}
+	
+	public User(String username, String password) {
+		this.userName = username;
 		this.password = password;
-		this.enabled = enabled;
 	}
 
-	public int getUserId() {
-		return userId;
+	public int getId() {
+		return id;
 	}
 
-	public void setUserId(int userId) {
-		this.userId = userId;
+	public void setId(int id) {
+		this.id = id;
 	}
 
-	public String getFullName() {
-		return fullName;
+	public String getUserName() {
+		return userName;
 	}
-	
-	public void setFullName(String fullName) {
-		this.fullName = fullName;
+
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
-	
-	public String getUsername() {
-		return username;
-	}
-	
-	public void setUsername(String username) {
-		this.username = username;
-	}
-	
-	public String getEmail() {
-		return email;
-	}
-	
-	public void setEmail(String email) {
-		this.email = email;
-	}
-	
+
 	public String getPassword() {
 		return password;
 	}
-	
+
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
-	public String getEnabled() {
+
+	public char getEnabled() {
 		return enabled;
 	}
-	
-	public void setEnabled(String enabled) {
+
+	public void setEnabled(char enabled) {
 		this.enabled = enabled;
+	}
+
+	public String getFirstName() {
+		return firstName;
+	}
+
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
 	
 }

@@ -61,7 +61,7 @@
   <hr>
   <h3>ABOUT</h3>
   <p>
-  	anchrapara Harnett English Medium School is a Co-Educational school affiliated to CBSE syllabus. Kanchrapara Harnett English Medium School is located in North 24 Parganas,West Bengal. The school was established in the year 1974 and is managed by Kanchrapara Harnett English Medium School.
+  	Kanchrapara Harnett English Medium School is a Co-Educational school affiliated to CBSE syllabus. Kanchrapara Harnett English Medium School is located in North 24 Parganas,West Bengal. The school was established in the year 1974 and is managed by Kanchrapara Harnett English Medium School.
   </p>
   <jsp:include page="footer.jsp"></jsp:include>
 </div>

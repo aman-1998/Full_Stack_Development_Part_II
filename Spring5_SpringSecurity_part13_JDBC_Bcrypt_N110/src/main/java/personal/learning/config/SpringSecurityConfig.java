@@ -129,5 +129,36 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
 	@Bean
 	public PasswordEncoder passwordEncoder() {
 		return new BCryptPasswordEncoder();
+		//return new BCryptPasswordEncoder(7); / strength can vary from 4 to 31
+		
+		/*
+		 * To Store a Password:-
+		 * 		1.Generate a long random salt using a CSPRNG.
+		 *  	2.Prepend the salt to the password and hash it with a standard password hashing function like Argon2, bcrypt, scrypt, or PBKDF2.
+		 *  	3.Save both the salt and the hash in the user's database record.
+		 * 
+		 *To Validate a Password:-
+		 * 		1.Retrieve the user's salt and hash from the database.
+		 * 		2.Prepend the salt to the given password and hash it using the same hash function.
+		 * 		3.Compare the hash of the given password with the hash from the database. If they match, the password is correct. Otherwise, the password is incorrect.
+		 */
+		
+		/*
+		 * Registration:-
+		 * ---------------
+		 * When we do registration for the first time, at that time the password that we provide is encrypted using
+		 * Bcrypt Key-Stretching algorithm. For example, in the above example strength is 7 so, encrypted password
+		 * will look like $2a$07$ivyuZG9Z.DheAGfLcBNDGejXgfunLj7lNUJ3WrpjjkLmbLuGgrUkG
+		 * In the above encrypted password $2a -> Version, 07 -> Strength, ivyuZG9Z.DheAGfLcBNDGe -> salt, jXgfunLj7lNUJ3WrpjjkLmbLuGgrUkG -> Hashed text
+		 * 
+		 * 
+		 * Login:-
+		 * --------
+		 * During Login, the provided password is validated. At that time strength and salt will be retrieved from the 
+		 * stored encrypted password in database (Note:- 7 will not be considered as strength at that time). For example,
+		 * if stored encrypted-password is $2a$10$kj60XzuJykItJ4egNUerw.U8rx2CtMwpwucoXw6I7hAKuKIEaLZ82 , then strength
+		 * will be 10 (not 7). Based on strength and salt the password provided during login is encrypted and then matched
+		 * against the stored encrypted-password in database. If there is match then we will be logged in otherwise not.
+		 */
 	}
 }

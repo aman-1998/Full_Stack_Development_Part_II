@@ -21,7 +21,7 @@
   	<li><a href="${pageContext.request.contextPath}/holiday">Holiday List</a></li>
   </security:authorize>
   <li><a href="${pageContext.request.contextPath}/admission">Admission</a></li>
-  <security:authorize access="hasRole('TEACHER')">
+  <security:authorize access="hasRole('TEACHER')">  <%-- access="hasAnyRole('ADMIN', 'TEACHER')" like this we can write for more than one roles --%>
   	<li><a href="${pageContext.request.contextPath}/performance">Performance of Students</a></li>
   </security:authorize>
   <security:authorize access="hasRole('ADMIN')">

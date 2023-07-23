@@ -21,7 +21,7 @@ public class AppConfig {
 			dataSource.setDataSourceName("ds");
 			dataSource.setURL("jdbc:oracle:thin:@localhost:1521:XE");
 			dataSource.setUser("SYSTEM");
-			dataSource.setPassword("SYSTEM");
+			dataSource.setPassword("ORACLE");
 		} catch (SQLException e) {
 			System.out.println("Failed to populate datasource");
 			e.printStackTrace();
