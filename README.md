@@ -342,3 +342,9 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 170. https://stackabuse.com/how-to-access-property-file-values-in-spring-boot/ - Access value in properties file in Spring / Spring Boot <br>
 171. https://javabeat.net/spring-mvc-component-scan-annotations/ - component-scan Vs annotation-config Vs annotation-driven <br>
 172. https://www.baeldung.com/spring-contextannotation-contextcomponentscan - component-scan Vs annotation-config <br>
+173. https://stackoverflow.com/questions/14212527/how-to-set-default-value-to-the-inputtype-date - Default population of input type date <br>
+174. https://www.aegissofttech.com/articles/bcrypt-password-encoding-spring-security.html - <b>Setup Bcrypt in Spring Boot</b> <br>
+175. https://www.geeksforgeeks.org/understanding-rainbow-table-attack/ <br>
+176. https://www.baeldung.com/spring-security-registration-password-encoding-bcrypt - <b>Registration with Spring Security (Bcrypt)</b> <br>
+177. https://bcrypt-generator.com - <b>Bcrypt Generator with various strength</b> <br>
+178. https://www.youtube.com/watch?v=z6o3YyYTiiI - Change Password of a User in Oracle database <br>
