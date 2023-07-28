@@ -27,8 +27,6 @@ public class School {
 	
 	@Column(name="type")
 	private String type;
-	
-	public School() {}
 
 	public int getId() {
 		return id;

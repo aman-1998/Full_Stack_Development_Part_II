@@ -28,15 +28,14 @@ public class Role {
 	@Column(name="role_name")
 	private String roleName;
 	
+	//Bi-directional
 	@ManyToOne(fetch=FetchType.EAGER, cascade={CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
 	@JoinTable(name="user_role",
 			   joinColumns=@JoinColumn(name="role_id"),
 			   inverseJoinColumns=@JoinColumn(name="user_id"))
 	private List<User> listOfUsers;
 	
-	public Role() {
-		
-	}
+	public Role() {}
 	
 	public Role(String roleName) {
 		this.roleName = roleName;

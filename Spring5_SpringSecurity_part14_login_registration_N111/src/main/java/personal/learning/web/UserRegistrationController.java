@@ -32,20 +32,23 @@ public class UserRegistrationController {
 		ModelAndView modelAndView = initRegistration();
 		return modelAndView;
 	}
-
+	
 	private ModelAndView initRegistration() {
 		
 		ModelAndView modelAndView = new ModelAndView("registrationPage");
+		
+		//Use School repository and service for this. Modification required. Just for test done as of now
+		String schoolName = userService.getSchoolName();
 		
 		LinkedHashMap<String, String> genderMap = new LinkedHashMap<>();
 		genderMap.put("Male", "Male");
 		genderMap.put("Female", "Female");
 		
 		LinkedHashMap<String, String> countryMap = new LinkedHashMap<>();
-		//countryMap = userService.getCountryMap();
+		countryMap = userService.getCountryMap();
 		
 		LinkedHashMap<String, String> langMap = new LinkedHashMap<>();
-		//langMap = userService.getLangMap();
+		langMap = userService.getLangMap();
 		
 		UserRegistrationDTO userRegistrationDTO = new UserRegistrationDTO();
 		

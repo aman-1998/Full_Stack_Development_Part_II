@@ -12,6 +12,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToMany;
+import javax.persistence.ManyToOne;
 import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
@@ -40,15 +41,29 @@ public class User {
 	@Column(name="last_name")
 	private String lastName;
 	
+	@Column(name="gender")
+	private String gender;
+	
+	//Uni-directional
+	@ManyToOne(fetch=FetchType.LAZY, cascade= {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
+	@JoinColumn(name="country_id")
+	private Country country;
+	
+	//Bi-directional
 	@ManyToMany(fetch=FetchType.EAGER, cascade={CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
 	@JoinTable(name="user_role",
 			   joinColumns=@JoinColumn(name="user_id"),
 			   inverseJoinColumns=@JoinColumn(name="role_id"))
 	private List<Role> listOfRoles;
 	
-	public User() {
-		
-	}
+	//Uni-directional
+	@ManyToOne(fetch=FetchType.LAZY, cascade={CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
+	@JoinTable(name="user_lang",
+			   joinColumns=@JoinColumn(name="user_id"),
+			   inverseJoinColumns=@JoinColumn(name="lang_id"))
+	private List<Language> listOfLang;
+	
+	public User() {}
 	
 	public User(String username, String password) {
 		this.userName = username;
