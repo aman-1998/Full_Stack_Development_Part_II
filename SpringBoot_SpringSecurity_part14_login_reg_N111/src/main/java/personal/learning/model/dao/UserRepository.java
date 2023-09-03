@@ -1,5 +1,6 @@
 package personal.learning.model.dao;
 
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
@@ -189,6 +190,34 @@ public class UserRepository {
 		
 		return Optional.ofNullable(role);
 	}
+	
+	public Users getUserByUserName(String username) {
+		Session session = getSession();
+		Transaction txn = null;
+		Users user = new Users();
+		try {
+			txn = session.beginTransaction();
+			Query<Users> query = session.createQuery("from Users u where u.userName = :username", Users.class);
+			query.setParameter("username", username);
+			List<Users> resultList = query.getResultList();
+			if(ObjectUtils.isEmpty(resultList)) {
+				throw new Exception("User Not found with username: " + username);
+			}
+			user = resultList.get(0);
+			
+			txn.commit();
+		} catch(Exception ex) {
+			if(txn != null) {
+				txn.rollback();
+			}
+			ex.printStackTrace();
+		} finally {
+			session.close();
+			//sessionFactory.close();
+		}
+		
+		return user;
+	}
 
 	public int getPkByUserName(String username) {
 		Session session = getSession();
@@ -197,8 +226,11 @@ public class UserRepository {
 		try {
 			txn = session.beginTransaction();
 			StringBuilder sb = new StringBuilder();
-			sb.append("select u.id from users u where u.user_name = " + "'" + username + "'");
-			List<Integer> resultList = new GeneralRepository<Integer>().query(session, sb.toString());
+//			sb.append("select u.id from users u where u.user_name = " + "'" + username + "'");
+//			List<Integer> resultList = new GeneralRepository<Integer>().query(session, sb.toString());
+			Query<Integer> query = session.createQuery("select u.id from Users u where u.userName = :username", Integer.class);
+			query.setParameter("username", username);
+			List<Integer> resultList = query.getResultList();
 			if(ObjectUtils.isNotEmpty(resultList)) {
 				id = resultList.get(0);
 			}
@@ -224,10 +256,10 @@ public class UserRepository {
 		try {
 			txn = session.beginTransaction();
 			StringBuilder sb = new StringBuilder();
-			sb.append("select u.id from users u where u.email = " + "'" + email + "'");
-			List<Integer> resultList = new GeneralRepository<Integer>().query(session, sb.toString());
+			sb.append("select u.id from users u where u.email = " + "'" + email + "'"); // Native query returns Number as BigDecimal
+			List<BigDecimal> resultList = new GeneralRepository<BigDecimal>().query(session, sb.toString());
 			if(ObjectUtils.isNotEmpty(resultList)) {
-				id = resultList.get(0);
+				id = resultList.get(0).intValue();
 			}
 			
 			txn.commit();
@@ -268,30 +300,5 @@ public class UserRepository {
 		
 		return listOfRole;
 	}
-	
-//	public Language test() {
-//	    Session session = getSession();
-//	    Transaction txn = null;
-//	    Language lang = null;
-//	    try {
-//	        txn = session.beginTransaction();
-//
-//	        Query<Language> query = session.createQuery("from Language where id = :pk").setParameter("pk", Integer.valueOf(1));
-//	        lang = query.getSingleResult(); // Use getSingleResult() instead of getResultList().get(0)
-//	        System.out.println(lang);
-//
-//	        txn.commit();
-//	    } catch(Exception ex) {
-//	        if(txn != null) {
-//	            txn.rollback();
-//	        }
-//	        ex.printStackTrace();
-//	    } finally {
-//	        session.close();
-//	    }
-//
-//	    return lang;
-//	}
-
 
 }

@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.support.SessionStatus;
 import org.springframework.web.servlet.ModelAndView;
 
@@ -37,7 +38,6 @@ public class UserRegistrationController {
 	
 	@GetMapping
 	public ModelAndView loadRegistrationForm() {
-		
 		UserRegistrationDTO userRegistrationDTO = new UserRegistrationDTO();
 		ModelAndView modelAndView = initRegistration(userRegistrationDTO);
 		return modelAndView;
@@ -97,7 +97,12 @@ public class UserRegistrationController {
 		ModelAndView modelAndView = new ModelAndView();
 		if(!result.hasErrors()) {
 			userService.save(userRegistrationDTO);
-			modelAndView.setViewName("loginPage");
+			
+			modelAndView.addObject("registrationSuccess", "true"); // registrationSuccess will be sent as parameter not property
+			modelAndView.setViewName("redirect:/myLogin");
+			
+			// The above approach is same as below commented line
+			//modelAndView.setViewName("redirect:/myLogin?registrationSuccess=true");
 			
 		} else {
 			modelAndView = initRegistration(userRegistrationDTO);

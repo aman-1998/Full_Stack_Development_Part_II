@@ -1,11 +1,19 @@
 package personal.learning.services;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import personal.learning.model.dao.UserRepository;
@@ -18,6 +26,10 @@ import personal.learning.web.dto.UserRegistrationDTO;
 @Service
 public class UserServiceImpl implements UserService {
 	
+	public BCryptPasswordEncoder passwordEncoder() {
+		return new BCryptPasswordEncoder();
+	}
+	
 	private UserRepository userRepository;
 	
 	public UserServiceImpl(UserRepository userRepository) {
@@ -25,8 +37,25 @@ public class UserServiceImpl implements UserService {
 	}
 	
 	@Override
+	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+		Users user = userRepository.getUserByUserName(username);
+		
+		User userDetails = new User(user.getUserName(), 
+									user.getPassword(), 
+									mapRolesToGrantedAuthorities(user.getListOfRoles()));
+		return userDetails;
+	}
+	
+	public Collection<? extends GrantedAuthority> mapRolesToGrantedAuthorities(Collection<Role> roles) {
+	    List<GrantedAuthority> grantedAuthorities = roles.stream()
+	    										  .map(role -> new SimpleGrantedAuthority(role.getRoleName()))
+	    										  .collect(Collectors.toList());
+		return grantedAuthorities;
+	}
+	
+	@Override
 	public void save(UserRegistrationDTO userRegistrationDTO) {
-		Users user = new Users(userRegistrationDTO.getUsername(), userRegistrationDTO.getPassword());
+		Users user = new Users(userRegistrationDTO.getUsername(), passwordEncoder().encode(userRegistrationDTO.getPassword()));
 		user.setEnabled('Y');
 		user.setEmail(userRegistrationDTO.getEmail());
 		user.setFirstName(userRegistrationDTO.getFirstName());
@@ -134,11 +163,5 @@ public class UserServiceImpl implements UserService {
 				  							   .collect(Collectors.toList());
 		return roleNameList;
 	}
-
-//	@Override
-//	public void test() {
-//		
-//		userRepository.test();
-//	}
 	
 }

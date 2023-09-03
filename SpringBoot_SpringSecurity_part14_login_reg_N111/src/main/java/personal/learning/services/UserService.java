@@ -3,11 +3,13 @@ package personal.learning.services;
 import java.util.LinkedHashMap;
 import java.util.List;
 
+import org.springframework.security.core.userdetails.UserDetailsService;
+
 import personal.learning.model.entity.Country;
 import personal.learning.model.entity.Language;
 import personal.learning.web.dto.UserRegistrationDTO;
 
-public interface UserService {
+public interface UserService extends UserDetailsService {
 	
 	void save(UserRegistrationDTO userRegistrationDTO);
 
@@ -26,7 +28,5 @@ public interface UserService {
 	List<String> getRoleList();
 
 	LinkedHashMap<String, String> getRoleMap();
-
-	//void test();
 	
 }

@@ -21,10 +21,10 @@
   	<li><a class="active" href="${pageContext.request.contextPath}/holiday">Holiday List</a></li>
   </security:authorize>
   <li><a href="${pageContext.request.contextPath}/admission">Admission</a></li>
-  <security:authorize access="hasRole('TEACHER')">
+  <security:authorize access="hasAuthority('TEACHER')">
   	<li><a href="${pageContext.request.contextPath}/performance">Performance of Students</a></li>
   </security:authorize>
-  <security:authorize access="hasRole('ADMIN')">
+  <security:authorize access="hasAuthority('ADMIN')">
   	<li><a href="${pageContext.request.contextPath}/pendingFees">Pending Fees of Students</a></li>
   </security:authorize>
   <li><a href="${pageContext.request.contextPath}/about">About</a></li>

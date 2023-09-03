@@ -40,6 +40,9 @@
 		    <c:if test="${param.logout != null}">
 				<p style="color: #007d00"><i><spring:message code="label.successful.logout"/></i></p>
 		    </c:if>
+		    <c:if test="${param.registrationSuccess != null}">
+				<p style="color: #007d00"><i><spring:message code="label.successful.registration"/></i></p>
+		    </c:if>
 	    </div>
         
     </div>
