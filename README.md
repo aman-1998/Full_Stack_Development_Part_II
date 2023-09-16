@@ -348,3 +348,7 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 176. https://www.baeldung.com/spring-security-registration-password-encoding-bcrypt - <b>Registration with Spring Security (Bcrypt)</b> <br>
 177. https://bcrypt-generator.com - <b>Bcrypt Generator with various strength</b> <br>
 178. https://www.youtube.com/watch?v=z6o3YyYTiiI - Change Password of a User in Oracle database <br>
+179. https://www.springcloud.io/post/2022-02/jwt-cookie/#gsc.tab=0 - Storage of JWT <br>
+180. https://stackabuse.com/spring-security-in-memory-invalidation-of-jwt-token-during-user-logout/ <br>
+181. https://stackoverflow.com/questions/63834132/how-to-pass-jwt-token-to-localstorage-using-javascript-script-for-html <br>
+182. https://medium.com/kanlanc/heres-why-storing-jwt-in-local-storage-is-a-great-mistake-df01dad90f9e <br>
