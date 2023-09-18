@@ -117,8 +117,8 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
   </li>
   <li><h3>Spring5_SpringSecurity_part2_custom_login_form_N99</h3> - In this project I integrated Spring 5 and SpringSecurity 5.0 and made a web app with custom login page.
 	  	<p align="center">
-  			<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/Spring_project_structure.jpeg">
-			<br><strong>Spring-Security in action</strong>
+  			<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/SpringSecurity_Internal_Flow.png">
+			<br><strong>Spring-Security Internal Flow</strong>
      		</p>
 		<p align="center">
   			<img src="https://github.com/aman-1998/Full_Stack_Development_Part_II/blob/main/images/SpringSecurity_in_action.PNG">
