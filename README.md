@@ -356,3 +356,6 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 180. https://stackabuse.com/spring-security-in-memory-invalidation-of-jwt-token-during-user-logout/ <br>
 181. https://stackoverflow.com/questions/63834132/how-to-pass-jwt-token-to-localstorage-using-javascript-script-for-html <br>
 182. https://medium.com/kanlanc/heres-why-storing-jwt-in-local-storage-is-a-great-mistake-df01dad90f9e <br>
+183. https://crackstation.net/hashing-security.htm - <b>Password hashing - Best Practices</b> <br>
+184. https://danboterhoven.medium.com/why-you-should-use-bcrypt-to-hash-passwords-af330100b861 - Why you should use BCrypt to hash passwords <br>
+185. https://en.wikipedia.org/wiki/Bcrypt - Bcrypt in Detail <br>
