@@ -359,3 +359,4 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 183. https://crackstation.net/hashing-security.htm - <b>Password hashing - Best Practices</b> <br>
 184. https://danboterhoven.medium.com/why-you-should-use-bcrypt-to-hash-passwords-af330100b861 - Why you should use BCrypt to hash passwords <br>
 185. https://en.wikipedia.org/wiki/Bcrypt - Bcrypt in Detail <br>
+186. https://docs.spring.io/spring-security/reference/5.8/migration/servlet/config.html - <b>In Spring Security 5.8, the antMatchers, mvcMatchers, and regexMatchers methods were deprecated in favor of new requestMatchers methods.</b> <br>
