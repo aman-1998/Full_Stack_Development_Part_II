@@ -361,3 +361,4 @@ The folders are named as <i>conceptName_NserialNo</i>, for example Dependency_In
 185. https://en.wikipedia.org/wiki/Bcrypt - Bcrypt in Detail <br>
 186. https://docs.spring.io/spring-security/reference/5.8/migration/servlet/config.html - <b>In Spring Security 5.8, the antMatchers, mvcMatchers, and regexMatchers methods were deprecated in favor of new requestMatchers methods.</b> <br>
 187. https://itecnote.com/tecnote/spring-security-invalid-property-principal-of-bean-class-org-springframework-security-authentication-usernamepasswordauthenticationtoken/ - org.springframework.beans.NotReadablePropertyException: Invalid property 'principal' of bean class [org.springframework.security.authentication.UsernamePasswordAuthenticationToken]: Bean property 'principal' is not readable...<br>
+188. https://docs.spring.io/spring-security/reference/servlet/authentication/architecture.html - Servlet Authentication Architecture <br>
